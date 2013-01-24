@@ -5,12 +5,10 @@
 				if ($blog_hero){
 			?>
 			<div class="clearfix row-fluid">
-				<div class="hero-unit">
+				<div class="hero-unit clearfix">
 				
-					<h1><?php bloginfo('title'); ?></h1>
-					
-					<p><?php bloginfo('description'); ?></p>
-				
+          <h1>Hero not in use</h1>
+        
 				</div>
 			</div>
 			<?php

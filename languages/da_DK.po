@@ -1,0 +1,511 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: wp theme bones\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2013-01-21 12:17+0100\n"
+"PO-Revision-Date: \n"
+"Last-Translator: Mads Nordholm <mn@newskills.dk>\n"
+"Language-Team: fulgor <frag.fulgor@gmail.com>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Poedit-SourceCharset: UTF-8\n"
+"X-Poedit-KeywordsList: __;_e;_n\n"
+"X-Poedit-Basepath: .\n"
+"X-Generator: Poedit 1.5.4\n"
+"X-Poedit-SearchPath-0: /Library/WebServer/Documents/newskills/wp-content/"
+"themes/wordpress-bootstrap\n"
+
+#: /Library/WebServer/Documents/newskills/wp-content/themes/wordpress-bootstrap/archive.php:10
+msgid "Posts Categorized:"
+msgstr "Kategoriserede Indlæg:"
+
+#: /Library/WebServer/Documents/newskills/wp-content/themes/wordpress-bootstrap/archive.php:14
+msgid "Posts Tagged:"
+msgstr "Taggede Indlæg:"
+
+#: /Library/WebServer/Documents/newskills/wp-content/themes/wordpress-bootstrap/archive.php:18
+#: /Library/WebServer/Documents/newskills/wp-content/themes/wordpress-bootstrap/author.php:8
+msgid "Posts By:"
+msgstr "Indlæg Af:"
+
+#: /Library/WebServer/Documents/newskills/wp-content/themes/wordpress-bootstrap/archive.php:22
+msgid "Daily Archives:"
+msgstr "Daglige Arkiver:"
+
+#: /Library/WebServer/Documents/newskills/wp-content/themes/wordpress-bootstrap/archive.php:26
+msgid "Monthly Archives:"
+msgstr "Månedlige Arkiver:"
+
+#: /Library/WebServer/Documents/newskills/wp-content/themes/wordpress-bootstrap/archive.php:30
+msgid "Yearly Archives:"
+msgstr "Årlige Arkiver:"
+
+#: /Library/WebServer/Documents/newskills/wp-content/themes/wordpress-bootstrap/archive.php:43
+#: /Library/WebServer/Documents/newskills/wp-content/themes/wordpress-bootstrap/attachment.php:15
+#: /Library/WebServer/Documents/newskills/wp-content/themes/wordpress-bootstrap/author.php:31
+#: /Library/WebServer/Documents/newskills/wp-content/themes/wordpress-bootstrap/image.php:23
+#: /Library/WebServer/Documents/newskills/wp-content/themes/wordpress-bootstrap/index.php:34
+#: /Library/WebServer/Documents/newskills/wp-content/themes/wordpress-bootstrap/search.php:17
+#: /Library/WebServer/Documents/newskills/wp-content/themes/wordpress-bootstrap/single.php:17
+msgid "Posted"
+msgstr "Skrevet"
+
+#: /Library/WebServer/Documents/newskills/wp-content/themes/wordpress-bootstrap/archive.php:43
+#: /Library/WebServer/Documents/newskills/wp-content/themes/wordpress-bootstrap/attachment.php:15
+#: /Library/WebServer/Documents/newskills/wp-content/themes/wordpress-bootstrap/author.php:31
+#: /Library/WebServer/Documents/newskills/wp-content/themes/wordpress-bootstrap/image.php:23
+#: /Library/WebServer/Documents/newskills/wp-content/themes/wordpress-bootstrap/index.php:34
+#: /Library/WebServer/Documents/newskills/wp-content/themes/wordpress-bootstrap/search.php:17
+#: /Library/WebServer/Documents/newskills/wp-content/themes/wordpress-bootstrap/single.php:17
+msgid "by"
+msgstr "af"
+
+#: /Library/WebServer/Documents/newskills/wp-content/themes/wordpress-bootstrap/archive.php:43
+#: /Library/WebServer/Documents/newskills/wp-content/themes/wordpress-bootstrap/attachment.php:15
+#: /Library/WebServer/Documents/newskills/wp-content/themes/wordpress-bootstrap/author.php:31
+#: /Library/WebServer/Documents/newskills/wp-content/themes/wordpress-bootstrap/index.php:34
+#: /Library/WebServer/Documents/newskills/wp-content/themes/wordpress-bootstrap/search.php:17
+#: /Library/WebServer/Documents/newskills/wp-content/themes/wordpress-bootstrap/single.php:17
+msgid "filed under"
+msgstr "sorteret under"
+
+#: /Library/WebServer/Documents/newskills/wp-content/themes/wordpress-bootstrap/archive.php:70
+#: /Library/WebServer/Documents/newskills/wp-content/themes/wordpress-bootstrap/author.php:58
+#: /Library/WebServer/Documents/newskills/wp-content/themes/wordpress-bootstrap/index.php:59
+#: /Library/WebServer/Documents/newskills/wp-content/themes/wordpress-bootstrap/search.php:42
+msgid "&laquo; Older Entries"
+msgstr "&laquo; Ældre Indlæg"
+
+#: /Library/WebServer/Documents/newskills/wp-content/themes/wordpress-bootstrap/archive.php:71
+#: /Library/WebServer/Documents/newskills/wp-content/themes/wordpress-bootstrap/author.php:59
+#: /Library/WebServer/Documents/newskills/wp-content/themes/wordpress-bootstrap/index.php:60
+#: /Library/WebServer/Documents/newskills/wp-content/themes/wordpress-bootstrap/search.php:43
+msgid "Newer Entries &raquo;"
+msgstr "Nyere Indlæg &raquo;"
+
+#: /Library/WebServer/Documents/newskills/wp-content/themes/wordpress-bootstrap/archive.php:81
+#: /Library/WebServer/Documents/newskills/wp-content/themes/wordpress-bootstrap/author.php:69
+msgid "No Posts Yet"
+msgstr "Endnu ingen indlæg"
+
+#: /Library/WebServer/Documents/newskills/wp-content/themes/wordpress-bootstrap/archive.php:84
+#: /Library/WebServer/Documents/newskills/wp-content/themes/wordpress-bootstrap/author.php:72
+msgid "Sorry, What you were looking for is not here."
+msgstr "Beklager, det du leder efter er ikke her."
+
+#: /Library/WebServer/Documents/newskills/wp-content/themes/wordpress-bootstrap/attachment.php:27
+#: /Library/WebServer/Documents/newskills/wp-content/themes/wordpress-bootstrap/image.php:53
+#: /Library/WebServer/Documents/newskills/wp-content/themes/wordpress-bootstrap/index.php:44
+#: /Library/WebServer/Documents/newskills/wp-content/themes/wordpress-bootstrap/page-full-width.php:30
+#: /Library/WebServer/Documents/newskills/wp-content/themes/wordpress-bootstrap/page-homepage.php:109
+#: /Library/WebServer/Documents/newskills/wp-content/themes/wordpress-bootstrap/page-left-sidebar.php:32
+#: /Library/WebServer/Documents/newskills/wp-content/themes/wordpress-bootstrap/page.php:24
+#: /Library/WebServer/Documents/newskills/wp-content/themes/wordpress-bootstrap/single.php:30
+msgid "Tags"
+msgstr "Tags"
+
+#: /Library/WebServer/Documents/newskills/wp-content/themes/wordpress-bootstrap/comments.php:11
+msgid "This post is password protected. Enter the password to view comments."
+msgstr ""
+"Dette indlæg er kodeordsbeskyttet. Skriv kodeordet for at se kommentarer."
+
+#: /Library/WebServer/Documents/newskills/wp-content/themes/wordpress-bootstrap/comments.php:21
+msgid "No"
+msgstr "Nej"
+
+#: /Library/WebServer/Documents/newskills/wp-content/themes/wordpress-bootstrap/comments.php:21
+msgid "Responses"
+msgstr "Svar"
+
+#: /Library/WebServer/Documents/newskills/wp-content/themes/wordpress-bootstrap/comments.php:21
+msgid "One"
+msgstr "En"
+
+#: /Library/WebServer/Documents/newskills/wp-content/themes/wordpress-bootstrap/comments.php:21
+msgid "Response"
+msgstr "Svar"
+
+#: /Library/WebServer/Documents/newskills/wp-content/themes/wordpress-bootstrap/comments.php:21
+msgid "to"
+msgstr "til"
+
+#: /Library/WebServer/Documents/newskills/wp-content/themes/wordpress-bootstrap/comments.php:25
+#: /Library/WebServer/Documents/newskills/wp-content/themes/wordpress-bootstrap/comments.php:46
+msgid "Older comments"
+msgstr "Ældre kommentarer"
+
+#: /Library/WebServer/Documents/newskills/wp-content/themes/wordpress-bootstrap/comments.php:26
+#: /Library/WebServer/Documents/newskills/wp-content/themes/wordpress-bootstrap/comments.php:47
+msgid "Newer comments"
+msgstr "Nyere kommentarer"
+
+#: /Library/WebServer/Documents/newskills/wp-content/themes/wordpress-bootstrap/comments.php:68
+#, fuzzy
+msgid "Comments are closed"
+msgstr "Der er lukket for kommentarer."
+
+#: /Library/WebServer/Documents/newskills/wp-content/themes/wordpress-bootstrap/comments.php:81
+msgid "Leave a Reply"
+msgstr "Efterlad et svar"
+
+#: /Library/WebServer/Documents/newskills/wp-content/themes/wordpress-bootstrap/comments.php:81
+msgid "Leave a Reply to"
+msgstr "Efterlad et svar til"
+
+#: /Library/WebServer/Documents/newskills/wp-content/themes/wordpress-bootstrap/comments.php:84
+msgid "Cancel"
+msgstr "Fortryd"
+
+#: /Library/WebServer/Documents/newskills/wp-content/themes/wordpress-bootstrap/comments.php:89
+msgid "You must be"
+msgstr "Du skal være"
+
+#: /Library/WebServer/Documents/newskills/wp-content/themes/wordpress-bootstrap/comments.php:89
+msgid "logged in"
+msgstr "logget ind"
+
+#: /Library/WebServer/Documents/newskills/wp-content/themes/wordpress-bootstrap/comments.php:89
+msgid "to post a comment"
+msgstr "for at kunne kommentere"
+
+#: /Library/WebServer/Documents/newskills/wp-content/themes/wordpress-bootstrap/comments.php:97
+msgid "Logged in as"
+msgstr "Logget ind som"
+
+#: /Library/WebServer/Documents/newskills/wp-content/themes/wordpress-bootstrap/comments.php:97
+msgid "Log out of this account"
+msgstr "Log ud af denne konto"
+
+#: /Library/WebServer/Documents/newskills/wp-content/themes/wordpress-bootstrap/comments.php:97
+msgid "Log out"
+msgstr "Log ud"
+
+#: /Library/WebServer/Documents/newskills/wp-content/themes/wordpress-bootstrap/comments.php:105
+msgid "Name"
+msgstr "Navn"
+
+#: /Library/WebServer/Documents/newskills/wp-content/themes/wordpress-bootstrap/comments.php:107
+msgid "Your Name"
+msgstr "Dit navn"
+
+#: /Library/WebServer/Documents/newskills/wp-content/themes/wordpress-bootstrap/comments.php:114
+msgid "Mail"
+msgstr "Mail"
+
+#: /Library/WebServer/Documents/newskills/wp-content/themes/wordpress-bootstrap/comments.php:116
+msgid "Your Email"
+msgstr "Din Email"
+
+#: /Library/WebServer/Documents/newskills/wp-content/themes/wordpress-bootstrap/comments.php:117
+msgid "will not be published"
+msgstr "vil ikke blive offentliggjort"
+
+#: /Library/WebServer/Documents/newskills/wp-content/themes/wordpress-bootstrap/comments.php:124
+msgid "Website"
+msgstr "Webside"
+
+#: /Library/WebServer/Documents/newskills/wp-content/themes/wordpress-bootstrap/comments.php:126
+msgid "Your Website"
+msgstr "Din Webside"
+
+#: /Library/WebServer/Documents/newskills/wp-content/themes/wordpress-bootstrap/comments.php:137
+#, fuzzy
+msgid "Your Comment Here…"
+msgstr "Din Kommentar her…"
+
+#: /Library/WebServer/Documents/newskills/wp-content/themes/wordpress-bootstrap/comments.php:142
+msgid "Submit Comment"
+msgstr "Indsend Kommentar"
+
+#: /Library/WebServer/Documents/newskills/wp-content/themes/wordpress-bootstrap/functions.php:146
+#, php-format
+msgid "<h4>%s</h4>"
+msgstr "<h4>%s</h4>"
+
+#: /Library/WebServer/Documents/newskills/wp-content/themes/wordpress-bootstrap/functions.php:147
+msgid "Edit"
+msgstr "Rediger"
+
+#: /Library/WebServer/Documents/newskills/wp-content/themes/wordpress-bootstrap/functions.php:151
+msgid "Your comment is awaiting moderation."
+msgstr "Din kommentar afventer moderation."
+
+#: /Library/WebServer/Documents/newskills/wp-content/themes/wordpress-bootstrap/functions.php:193
+msgid "Search for:"
+msgstr "Søg efter:"
+
+#: /Library/WebServer/Documents/newskills/wp-content/themes/wordpress-bootstrap/functions.php:208
+msgid ""
+"<p>This post is password protected. To view it please enter your password "
+"below:</p>"
+msgstr ""
+"<p>Dette indlæg er kodeordsbeskyttet. Skriv kodeordet herunder for at se det:"
+"</p>"
+
+#: /Library/WebServer/Documents/newskills/wp-content/themes/wordpress-bootstrap/functions.php:209
+msgid "Password:"
+msgstr "Kodeord:"
+
+#: /Library/WebServer/Documents/newskills/wp-content/themes/wordpress-bootstrap/header.php:116
+#: /Library/WebServer/Documents/newskills/wp-content/themes/wordpress-bootstrap/searchform.php:5
+msgid "Search"
+msgstr "Søg"
+
+#: /Library/WebServer/Documents/newskills/wp-content/themes/wordpress-bootstrap/image.php:67
+#: /Library/WebServer/Documents/newskills/wp-content/themes/wordpress-bootstrap/index.php:69
+#: /Library/WebServer/Documents/newskills/wp-content/themes/wordpress-bootstrap/page-full-width.php:44
+#: /Library/WebServer/Documents/newskills/wp-content/themes/wordpress-bootstrap/page-homepage.php:126
+#: /Library/WebServer/Documents/newskills/wp-content/themes/wordpress-bootstrap/page-left-sidebar.php:46
+#: /Library/WebServer/Documents/newskills/wp-content/themes/wordpress-bootstrap/page.php:38
+#: /Library/WebServer/Documents/newskills/wp-content/themes/wordpress-bootstrap/search.php:54
+#: /Library/WebServer/Documents/newskills/wp-content/themes/wordpress-bootstrap/single.php:51
+msgid "Not Found"
+msgstr "Ikke Fundet"
+
+#: /Library/WebServer/Documents/newskills/wp-content/themes/wordpress-bootstrap/image.php:70
+#: /Library/WebServer/Documents/newskills/wp-content/themes/wordpress-bootstrap/index.php:72
+#: /Library/WebServer/Documents/newskills/wp-content/themes/wordpress-bootstrap/page-full-width.php:47
+#: /Library/WebServer/Documents/newskills/wp-content/themes/wordpress-bootstrap/page-homepage.php:129
+#: /Library/WebServer/Documents/newskills/wp-content/themes/wordpress-bootstrap/page-left-sidebar.php:49
+#: /Library/WebServer/Documents/newskills/wp-content/themes/wordpress-bootstrap/page.php:41
+#: /Library/WebServer/Documents/newskills/wp-content/themes/wordpress-bootstrap/search.php:57
+#: /Library/WebServer/Documents/newskills/wp-content/themes/wordpress-bootstrap/single.php:54
+msgid "Sorry, but the requested resource was not found on this site."
+msgstr "Beklager, men det søgte emne blev ikke fundet på denne side."
+
+#: /Library/WebServer/Documents/newskills/wp-content/themes/wordpress-bootstrap/image.php:89
+msgid "Image metadata"
+msgstr "Billede metadata"
+
+#: /Library/WebServer/Documents/newskills/wp-content/themes/wordpress-bootstrap/image.php:113
+#, fuzzy
+msgid "Date Taken"
+msgstr "Optagelsesdato"
+
+#: /Library/WebServer/Documents/newskills/wp-content/themes/wordpress-bootstrap/image.php:115
+msgid "Copyright"
+msgstr "Copyright"
+
+#: /Library/WebServer/Documents/newskills/wp-content/themes/wordpress-bootstrap/image.php:117
+#, fuzzy
+msgid "Credit"
+msgstr "Credit"
+
+#: /Library/WebServer/Documents/newskills/wp-content/themes/wordpress-bootstrap/image.php:119
+msgid "Title"
+msgstr "Titel"
+
+#: /Library/WebServer/Documents/newskills/wp-content/themes/wordpress-bootstrap/image.php:121
+msgid "Caption"
+msgstr "Billedtekst"
+
+#: /Library/WebServer/Documents/newskills/wp-content/themes/wordpress-bootstrap/image.php:123
+msgid "Camera"
+msgstr "Kamera"
+
+#: /Library/WebServer/Documents/newskills/wp-content/themes/wordpress-bootstrap/image.php:125
+#, fuzzy
+msgid "Focal Length"
+msgstr "Focal length"
+
+#: /Library/WebServer/Documents/newskills/wp-content/themes/wordpress-bootstrap/image.php:127
+#, fuzzy
+msgid "Aperture"
+msgstr "Aperture"
+
+#: /Library/WebServer/Documents/newskills/wp-content/themes/wordpress-bootstrap/image.php:129
+msgid "ISO"
+msgstr "ISO"
+
+#: /Library/WebServer/Documents/newskills/wp-content/themes/wordpress-bootstrap/image.php:131
+msgid "Shutter Speed"
+msgstr "Lukkerhastighed"
+
+#: /Library/WebServer/Documents/newskills/wp-content/themes/wordpress-bootstrap/index.php:39
+msgid "Read more &raquo;"
+msgstr "Læs mere &raquo;"
+
+#: /Library/WebServer/Documents/newskills/wp-content/themes/wordpress-bootstrap/search.php:7
+msgid "Search Results for"
+msgstr "Søgeresultater for"
+
+#: /Library/WebServer/Documents/newskills/wp-content/themes/wordpress-bootstrap/search.php:22
+msgid "Read more on"
+msgstr "Læs mere på"
+
+#: /Library/WebServer/Documents/newskills/wp-content/themes/wordpress-bootstrap/sidebar-sidebar2.php:13
+#: /Library/WebServer/Documents/newskills/wp-content/themes/wordpress-bootstrap/sidebar.php:13
+#, fuzzy
+msgid "Please activate some Widgets"
+msgstr "Aktiver venligst nogle Widgets."
+
+#: /Library/WebServer/Documents/newskills/wp-content/themes/wordpress-bootstrap/single.php:36
+msgid "Edit post"
+msgstr "Rediger Indlæg"
+
+#: /Library/WebServer/Documents/newskills/wp-content/themes/wordpress-bootstrap/admin/options-framework.php:230
+msgid "Click OK to reset. Any theme settings will be lost!"
+msgstr "Klik OK for at nulstille. Alle tema indstillinger vil gå tabt!"
+
+#: /Library/WebServer/Documents/newskills/wp-content/themes/wordpress-bootstrap/admin/options-framework.php:263
+msgid "Default options restored."
+msgstr "Default indstillinger gendannet."
+
+#: /Library/WebServer/Documents/newskills/wp-content/themes/wordpress-bootstrap/admin/options-framework.php:304
+msgid "Options saved."
+msgstr "Indstillinger gemt."
+
+#: /Library/WebServer/Documents/newskills/wp-content/themes/wordpress-bootstrap/admin/options-framework.php:362
+msgid "Theme Options"
+msgstr "Tema indstillinger"
+
+#: /Library/WebServer/Documents/newskills/wp-content/themes/wordpress-bootstrap/admin/options-medialibrary-uploader.php:26
+#, fuzzy
+msgid "Options Framework Internal Container"
+msgstr "Options Framework Internal Container"
+
+#: /Library/WebServer/Documents/newskills/wp-content/themes/wordpress-bootstrap/admin/options-medialibrary-uploader.php:128
+msgid "Upload"
+msgstr "Upload"
+
+#: /Library/WebServer/Documents/newskills/wp-content/themes/wordpress-bootstrap/admin/options-medialibrary-uploader.php:151
+msgid "View File"
+msgstr "Vis fil"
+
+#: /Library/WebServer/Documents/newskills/wp-content/themes/wordpress-bootstrap/admin/options-medialibrary-uploader.php:288
+msgid "Gallery"
+msgstr "Galleri"
+
+#: /Library/WebServer/Documents/newskills/wp-content/themes/wordpress-bootstrap/admin/options-medialibrary-uploader.php:288
+msgid "Previously Uploaded"
+msgstr "Tidligere uploaded"
+
+#~ msgid "(required)"
+#~ msgstr "(obligatorisk)"
+
+#~ msgid "Email"
+#~ msgstr "Email"
+
+#~ msgid "You can use these tags"
+#~ msgstr "Du kan anvende disse tags"
+
+#~ msgid "Page %s"
+#~ msgstr "Side %s"
+
+#~ msgid "Read more"
+#~ msgstr "Læs mere"
+
+#~ msgid "(Edit)"
+#~ msgstr "(Rediger)"
+
+#~ msgid "Search the Site..."
+#~ msgstr "Søg på siden…"
+
+#~ msgid "Epic 404 - Article Not Found"
+#~ msgstr "Episk 404 - Emne Blev Ikke Fundet"
+
+#~ msgid ""
+#~ "The article you were looking for was not found, but maybe try looking "
+#~ "again!"
+#~ msgstr ""
+#~ "Det emne, du ledte efter blev ikke fundet, men prøv måske at lede igen!"
+
+#~ msgid "Custom Tags"
+#~ msgstr "Brugerdefinerede Tags"
+
+#~ msgid "Tag"
+#~ msgstr "Tag"
+
+#~ msgid "Read the rest of this entry"
+#~ msgstr "Læs resten af dette indlæg"
+
+#~ msgid "Sorry, no attachments matched your criteria."
+#~ msgstr "Beklager, ingen vedhæftninger matchede dine kriterier."
+
+#~ msgid "is powered by"
+#~ msgstr "drives af"
+
+#~ msgid "Custom Types"
+#~ msgstr "Brugerdefinerede Typer:"
+
+#~ msgid "Custom Post"
+#~ msgstr "Brugerdefineret Indlæg"
+
+#~ msgid "Add New"
+#~ msgstr "Tilføj Nyt"
+
+#~ msgid "Add New Custom Type"
+#~ msgstr "Tilføj Ny Brugerdefineret Type"
+
+#~ msgid "View Post Type"
+#~ msgstr "Se Indlæg Type "
+
+#~ msgid "Search Post Type"
+#~ msgstr "Søg Indlæg Type"
+
+#~ msgid "Nothing found in the Database."
+#~ msgstr "Intet fundet i Databasen."
+
+#~ msgid "Nothing found in Trash"
+#~ msgstr "Intet fundet i Papirkurven"
+
+#~ msgid "This is the example custom post type"
+#~ msgstr "Dette er et ekempel på en brugerdefineret indlæg type."
+
+#~ msgid "Custom Categories"
+#~ msgstr "Brugerdefinerede Kategorier"
+
+#~ msgid "Custom Category"
+#~ msgstr "Brugerdefineret Kategori"
+
+#~ msgid "Search Custom Categories"
+#~ msgstr "Søg Brugerdefinerede Kategorier"
+
+#~ msgid "All Custom Categories"
+#~ msgstr "Alle Brugerdefinerede Kategorier"
+
+#~ msgid "Parent Custom Category"
+#~ msgstr "Forældre Brugerdefineret Kategori"
+
+#~ msgid "Parent Custom Category:"
+#~ msgstr "Forældre Brugerdefineret Kategori:"
+
+#~ msgid "Edit Custom Category"
+#~ msgstr "Rediger Brugerdefineret Kategori"
+
+#~ msgid "Update Custom Category"
+#~ msgstr "Updater brugerdefineret Kategori"
+
+#~ msgid "Add New Custom Category"
+#~ msgstr "Tilføj Nyt Brugerdefineret Kategori"
+
+#~ msgid "New Custom Category Name"
+#~ msgstr "Nyt Brugerdefineret Kategori Navn"
+
+#~ msgid "Custom Tag"
+#~ msgstr "Brugerdefineret Tag"
+
+#~ msgid "Search Custom Tags"
+#~ msgstr "Søg Brugerdefinerede Tags"
+
+#~ msgid "All Custom Tags"
+#~ msgstr "Alle Brugerdefinerede Tags"
+
+#~ msgid "Parent Custom Tag"
+#~ msgstr "Forældre Brugerdefineret Tag"
+
+#~ msgid "Parent Custom Tag:"
+#~ msgstr "Forældre Brugerdefineret Tag:"
+
+#~ msgid "Edit Custom Tag"
+#~ msgstr "Rediger Brugerdefineret Tag"
+
+#~ msgid "Update Custom Tag"
+#~ msgstr "Opdater Brugerdefineret Tag"
+
+#~ msgid "Add New Custom Tag"
+#~ msgstr "Tilføj Nyt Brugerdefineret Tag"
+
+#~ msgid "New Custom Tag Name"
+#~ msgstr "Nyt Brugerdefineret Tag Navn"

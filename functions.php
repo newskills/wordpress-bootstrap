@@ -66,6 +66,14 @@ you like. Enjoy!
 // Sidebars & Widgetizes Areas
 function bones_register_sidebars() {
     register_sidebar(array(
+      'id' => 'header',
+      'name' => 'Header',
+      'description' => 'Used to place widgets on top of the banner image',
+      'before_widget' => '<div id="%1$s" class="widget %2$s">',
+      'after_widget' => '</div>'
+    ));
+
+    register_sidebar(array(
     	'id' => 'sidebar1',
     	'name' => 'Main Sidebar',
     	'description' => 'Used on every page BUT the homepage page template.',
@@ -470,10 +478,12 @@ function theme_styles()
     wp_register_style( 'bootstrap', get_template_directory_uri() . '/library/css/bootstrap.css', array(), '1.0', 'all' );
     wp_register_style( 'bootstrap-responsive', get_template_directory_uri() . '/library/css/responsive.css', array(), '1.0', 'all' );
     wp_register_style( 'wp-bootstrap', get_template_directory_uri() . '/style.css', array(), '1.0', 'all' );
+    wp_register_style( 'newskills', get_template_directory_uri() . '/newskills.css', array(), '1.0', 'all' );
     
     wp_enqueue_style( 'bootstrap' );
     wp_enqueue_style( 'bootstrap-responsive' );
     wp_enqueue_style( 'wp-bootstrap');
+    wp_enqueue_style( 'newskills');
 }
 add_action('wp_enqueue_scripts', 'theme_styles');
 

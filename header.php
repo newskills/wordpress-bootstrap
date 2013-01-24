@@ -93,7 +93,7 @@
 		
 			<div id="inner-header" class="clearfix">
 				
-				<div class="navbar navbar-fixed-top">
+				<div class="navbar navbar-inverse navbar-fixed-top">
 					<div class="navbar-inner">
 						<div class="container-fluid nav-container">
 							<nav role="navigation">
@@ -105,7 +105,7 @@
 							        <span class="icon-bar"></span>
 								</a>
 								
-								<div class="nav-collapse">
+								<div class="nav-collapse pull-right">
 									<?php bones_main_nav(); // Adjust using Menus in Wordpress Admin ?>
 								</div>
 								
@@ -124,5 +124,15 @@
 			</div> <!-- end #inner-header -->
 		
 		</header> <!-- end header -->
+
+		<?php if ( is_home() ): ?>
+		<div class="banner">
+			<div class="container-fluid">
+				<div class="row-fluid">
+					<?php get_sidebar('header'); ?>
+				</div>
+			</div>
+		</div>
+		<?php endif; ?>
 		
 		<div class="container-fluid">

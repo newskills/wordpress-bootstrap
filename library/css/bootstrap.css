@@ -127,7 +127,7 @@ textarea {
   clear: both;
 }
 .hide-text {
-  font: a;
+  font: 0/0 a;
   color: transparent;
   text-shadow: none;
   background-color: transparent;
@@ -2359,7 +2359,7 @@ table [class*=span],
 .open {
   *z-index: 1000;
 }
-.open > .dropdown-menu {
+.open  > .dropdown-menu {
   display: block;
 }
 .pull-right > .dropdown-menu {
@@ -3475,7 +3475,7 @@ input[type="submit"].btn.btn-mini {
   *z-index: 2;
 }
 .navbar-inner {
-  min-height: 40px;
+  min-height: 63px;
   padding-left: 20px;
   padding-right: 20px;
   background-color: #fafafa;
@@ -3513,7 +3513,7 @@ input[type="submit"].btn.btn-mini {
 .navbar .brand {
   float: left;
   display: block;
-  padding: 10px 20px 10px;
+  padding: 21.5px 20px 21.5px;
   margin-left: -20px;
   font-size: 20px;
   font-weight: 200;
@@ -3525,7 +3525,7 @@ input[type="submit"].btn.btn-mini {
 }
 .navbar-text {
   margin-bottom: 0;
-  line-height: 40px;
+  line-height: 63px;
 }
 .navbar-link {
   color: #777777;
@@ -3534,14 +3534,14 @@ input[type="submit"].btn.btn-mini {
   color: #333333;
 }
 .navbar .divider-vertical {
-  height: 40px;
+  height: 63px;
   margin: 0 9px;
   border-left: 1px solid #f2f2f2;
   border-right: 1px solid #ffffff;
 }
 .navbar .btn,
 .navbar .btn-group {
-  margin-top: 5px;
+  margin-top: 16.5px;
 }
 .navbar .btn-group .btn,
 .navbar .input-prepend .btn,
@@ -3565,7 +3565,7 @@ input[type="submit"].btn.btn-mini {
 .navbar-form select,
 .navbar-form .radio,
 .navbar-form .checkbox {
-  margin-top: 5px;
+  margin-top: 16.5px;
 }
 .navbar-form input,
 .navbar-form select,
@@ -3590,7 +3590,7 @@ input[type="submit"].btn.btn-mini {
 .navbar-search {
   position: relative;
   float: left;
-  margin-top: 5px;
+  margin-top: 16.5px;
   margin-bottom: 0;
 }
 .navbar-search .search-query {
@@ -3675,7 +3675,7 @@ input[type="submit"].btn.btn-mini {
 }
 .navbar .nav > li > a {
   float: none;
-  padding: 10px 15px 10px;
+  padding: 21.5px 15px 21.5px;
   color: #777777;
   text-decoration: none;
   text-shadow: 0 1px 0 #ffffff;
@@ -3840,7 +3840,7 @@ input[type="submit"].btn.btn-mini {
   background-image: linear-gradient(to bottom, #222222, #111111);
   background-repeat: repeat-x;
   filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#ff222222', endColorstr='#ff111111', GradientType=0);
-  border-color: #252525;
+  border-color: #111111;
 }
 .navbar-inverse .brand,
 .navbar-inverse .nav > li > a {
@@ -4878,4 +4878,46 @@ a.badge:hover {
 }
 .affix {
   position: fixed;
+}
+#logo {
+  background: url(../../images/newskills_logo.png) 5px 5px no-repeat;
+  text-indent: -999em;
+  width: 150px;
+}
+.banner {
+  height: 250px;
+  padding: 50px 0;
+  background-image: url(../../images/pencil.jpg);
+  background-size: cover;
+  background-position: 50% 20%;
+  border-bottom: 1px solid #ccc;
+  -webkit-box-shadow: inset 0 -3px 5px rgba(0, 0, 0, 0.045);
+  -moz-box-shadow: inset 0 -3px 5px rgba(0, 0, 0, 0.045);
+  box-shadow: inset 0 -3px 5px rgba(0, 0, 0, 0.045);
+}
+.sidebar-header {
+  background: rgba(0, 0, 0, 0.7);
+  padding: 10px;
+  color: rgba(255, 255, 255, 0.9);
+  -webkit-border-radius: 4px;
+  -moz-border-radius: 4px;
+  border-radius: 4px;
+}
+.sidebar-header ul {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+.sidebar-header li {
+  padding: 5px;
+  border-bottom: 1px solid rgba(255, 255, 255, 0.1);
+}
+.sidebar-header li:last-child {
+  border-bottom: 1px solid transparent;
+}
+.sidebar-header .widget {
+  margin-bottom: 0 !important;
+}
+.nsu_widget .widgettitle {
+  margin: 0;
 }
