@@ -100,9 +100,9 @@
 								<a class="brand" id="logo" title="<?php echo get_bloginfo('description'); ?>" href="<?php echo home_url(); ?>"><?php bloginfo('name'); ?></a>
 								
 								<a class="btn btn-navbar" data-toggle="collapse" data-target=".nav-collapse">
-							        <span class="icon-bar"></span>
-							        <span class="icon-bar"></span>
-							        <span class="icon-bar"></span>
+					        <span class="icon-bar"></span>
+					        <span class="icon-bar"></span>
+					        <span class="icon-bar"></span>
 								</a>
 								
 								<div class="nav-collapse pull-right">

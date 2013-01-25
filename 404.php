@@ -8,18 +8,13 @@
 						
 						<header>
 
-							<div class="hero-unit">
-							
-								<h1>Epic 404 - Article Not Found</h1>
-								<p>This is embarassing. We can't find what you were looking for.</p>
-															
-							</div>
+							<h1>404 - Siden findes ikke</h1>
 													
 						</header> <!-- end article header -->
 					
 						<section class="post_content">
 							
-							<p>Whatever you were looking for was not found, but maybe try looking again or search using the form below.</p>
+							<p>Den side du efterspurgte findes ikke. Forsøg evt. igen eller søg på hele vores site ved hjælpe af søgefeltet herunder.</p>
 
 							<div class="row-fluid">
 								<div class="span12">
