@@ -9,7 +9,7 @@
   padding: 50px 0;
   background-image: url(../../images/pencil.jpg);
   background-size: cover;
-  background-position: 50% 70%;
+  background-position: 50% 20%;
   border-bottom: 1px solid #ccc;
   .box-shadow( inset 0 -3px 5px rgba(0, 0, 0, .045) );
 }
@@ -33,6 +33,26 @@
   }
   .widget {
     margin-bottom: 0 !important;
+  }
+  .EO_Event_List_Widget {
+    h2 {
+      margin: 0 0 5px 0;
+      font-size: 20px;
+      text-transform: uppercase;
+    }
+    li {
+      .clearfix;
+      span {
+        display: block;
+      }
+      .eo-list-date {
+        //margin-top: @baseLineHeight;
+        .pull-right;
+      }
+      .eo-list-desc {
+
+      }
+    }
   }
 }
 

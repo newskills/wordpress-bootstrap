@@ -28,9 +28,7 @@ get_header(); ?>
 
         <!---- Page header, display category title-->
         <header class="page-header">
-          <h1 class="page-title"><?php
-            printf( __( 'Event Category Archives: %s', 'eventorganiser' ), '<span>' . single_cat_title( '', false ) . '</span>' );
-          ?></h1>
+          <h1 class="page-title"><?=single_cat_title( '', false ); ?></h1>
 
         <!---- If the category has a description display it-->
           <?php
@@ -39,75 +37,100 @@ get_header(); ?>
               echo apply_filters( 'category_archive_meta', '<div class="category-archive-meta">' . $category_description . '</div>' );
           ?>
         </header>
+          <?php if ( single_cat_title( '', false ) == 'Kurser &amp; Moduler' ) : ?>
+            <?php
+              $post_type = $wp->query_vars[ 'post_type' ];
+              $tax = 'event-category';
+              $tax_terms = get_terms( $tax, array( 'hide_empty' => 0, 'child_of' => 4, 'hierarchical'  => 0 ) );
 
-        <!---- Navigate between pages-->
-        <!---- In TwentyEleven theme this is done by twentyeleven_content_nav-->
-        <?php 
-        global $wp_query;
-        if ( $wp_query->max_num_pages > 1 ) : ?>
-          <nav id="nav-above">
-            <div class="nav-next events-nav-newer"><?php next_posts_link( __( 'Later events <span class="meta-nav">&rarr;</span>' , 'eventorganiser' ) ); ?></div>
-            <div class="nav-previous events-nav-newer"><?php previous_posts_link( __( ' <span class="meta-nav">&larr;</span> Newer events', 'eventorganiser' ) ); ?></div>
-          </nav><!-- #nav-above -->
-        <?php endif; ?>
+              //list everything
+              if ( $tax_terms ) {
+                foreach ( $tax_terms as $tax_term ) {
+                  $args = array (
+                    'post_type' => 'events',
+                    "$tax" => $tax_term->slug,
+                    'post_status' => 'publish',
+                    'posts_per_page' => -1
+                  );
 
-        <?php /* Start the Loop */ ?>
-        <?php while ( have_posts() ) : the_post(); ?>
-                
-          <article id="post-<?php the_ID(); ?>" <?php post_class(); ?>>
+                  $my_query = null;
+                  $my_query = new WP_Query( $args );
+                  if( $my_query->have_posts() ) {
+                    echo "<h2 class=\"tax_term-heading\" id=\"".$tax_term->slug."\"> $tax_term->name </h2>";
+                    while ( $my_query->have_posts() ) : $my_query->the_post(); ?>
+                      <p><a href="<?php the_permalink() ?>" rel="bookmark" title="Permanent Link to <?php the_title_attribute(); ?>"><?php the_title(); ?></a></p>
+                      <?php
+                    endwhile;
+                  }
+                  wp_reset_query();
+                }
+              }
+            ?>
+          <?php else : ?>
 
-            <header class="entry-header">
-              <h1 class="entry-title"><a href="<?php the_permalink(); ?>"><?php the_title(); ?></a></h1>
+            <?php /* Start the Loop */ ?>
+            <?php while ( have_posts() ) : the_post(); ?>
+                    
+              <article id="post-<?php the_ID(); ?>" <?php post_class(); ?>>
 
-              <div class="entry-meta">
-                <!-- Output the date of the occurrence-->
-                <?php if(eo_is_all_day()):?>
-                  <!-- Event is an all day event -->
-                  <?php eo_the_start('d F Y'); ?> 
-                <?php else: ?>
-                  <!-- Event is not an all day event - display time -->
-                  <?php eo_the_start('d F Y g:ia'); ?> 
-                <?php endif; ?>
+                <header class="entry-header">
+                  <h1 class="entry-title"><a href="<?php the_permalink(); ?>"><?php the_title(); ?></a></h1>
 
-                <!-- If the event has a venue saved, display this-->
-                <?php if(eo_get_venue_name()):?>
-                  <?php _e('at','eventorganiser');?> <a href="<?php eo_venue_link();?>"><?php eo_venue_name();?></a>
-                <?php endif;?>
-              </div><!-- .entry-meta -->
+                  <div class="entry-meta">
+                    <!-- Output the date of the occurrence-->
+                    <?php if(eo_is_all_day()):?>
+                      <!-- Event is an all day event -->
+                      <?php eo_the_start('d F Y'); ?> 
+                    <?php else: ?>
+                      <!-- Event is not an all day event - display time -->
+                      <?php eo_the_start('d F Y g:ia'); ?> 
+                    <?php endif; ?>
 
-            </header><!-- .entry-header -->
+                    <!-- If the event has a venue saved, display this-->
+                    <?php if(eo_get_venue_name()):?>
+                      <?php _e('at','eventorganiser');?> <a href="<?php eo_venue_link();?>"><?php eo_venue_name();?></a>
+                    <?php endif;?>
+                  </div><!-- .entry-meta -->
 
-          </article><!-- #post-<?php the_ID(); ?> -->
+                </header><!-- .entry-header -->
 
-        <?php endwhile; ?><!----The Loop ends-->
+              </article><!-- #post-<?php the_ID(); ?> -->
 
-        <!---- Navigate between pages-->
-        <?php 
-        if ( $wp_query->max_num_pages > 1 ) : ?>
-          <nav id="nav-below">
-            <div class="nav-next events-nav-newer"><?php next_posts_link( __( 'Later events <span class="meta-nav">&rarr;</span>' , 'eventorganiser' ) ); ?></div>
-            <div class="nav-previous events-nav-newer"><?php previous_posts_link( __( ' <span class="meta-nav">&larr;</span> Newer events', 'eventorganiser' ) ); ?></div>
-          </nav><!-- #nav-below -->
-        <?php endif; ?>
+            <?php endwhile; ?><!----The Loop ends-->
 
-        <?php else : ?>
+          <?php endif; ?>
 
-          <!---- If there are no events -->
-          <article id="post-0" class="post no-results not-found span8">
-            <header class="entry-header">
-              <h1 class="entry-title"><?php _e( 'Nothing Found', 'eventorganiser' ); ?></h1>
-            </header><!-- .entry-header -->
+      <?php else : ?>
 
-            <div class="entry-content">
-              <p><?php _e( 'Apologies, but no events were found for the requested category. ', 'eventorganiser' ); ?></p>
-            </div><!-- .entry-content -->
-          </article><!-- #post-0 -->
+        <!---- If there are no events -->
+        <article id="post-0" class="post no-results not-found">
+          <header class="page-header">
+            <? print( is_category( 'Onsdagsoplæg' ) ) ?>
+            <h1 class="page-title">
+              <?php if( single_cat_title( '', false ) == 'Onsdagsoplæg' ) : ?>
+                Ingen oplæg
+              <?php elseif( single_cat_title( '', false ) == 'Kurser & Moduler' ) : ?>
+                Ingen kurser
+              <?php endif; ?>
+            </h1>
+          </header><!-- .entry-header -->
 
-        <?php endif; ?>
+          <div class="entry-content">
+            <p>
+              <?php if( single_cat_title( '', false ) == 'Onsdagsoplæg' ) : ?>
+                Der er i øjeblikket ingen planlagte onsdagsoplæg.
+              <?php elseif( single_cat_title( '', false ) == 'Kurser & Moduler' ) : ?>
+                Der er i øjeblikket ingen planlagte kurser.
+              <?php endif; ?>
+            </p>
+          </div><!-- .entry-content -->
+        </article><!-- #post-0 -->
 
-        </div><!-- #main -->
-        <?php get_sidebar(); ?>
-      </div><!-- #content -->
+      <?php endif; ?>
+
+      </div><!-- #main -->
+      <?php get_sidebar(); ?>
+    </div><!-- #content -->
 
 <!-- Call template sidebar and footer -->
 <?php get_footer(); ?>
