@@ -1,22 +1,26 @@
 			<footer role="contentinfo">
 			
 				<div id="inner-footer" class="clearfix">
-		          <hr />
-		          <div id="widget-footer" class="clearfix row-fluid">
-		            <?php if ( !function_exists('dynamic_sidebar') || !dynamic_sidebar('footer1') ) : ?>
-		            <?php endif; ?>
-		            <?php if ( !function_exists('dynamic_sidebar') || !dynamic_sidebar('footer2') ) : ?>
-		            <?php endif; ?>
-		            <?php if ( !function_exists('dynamic_sidebar') || !dynamic_sidebar('footer3') ) : ?>
-		            <?php endif; ?>
-		          </div>
-					
+		      <hr />
+					<div style="margin-bottom: 1.8em">
+            <span style="padding: 0 10px">NEW Skills A/S</span> &bullet;
+            <span style="padding: 0 10px">Rebslagervej 8-16</span> &bullet;
+            <span style="padding: 0 10px">2400 København NV</span> &bullet;
+            <span style="padding: 0 10px">+45 70 21 04 00</span> &bullet;
+            <span style="padding: 0 10px">
+            	<a href="mailto:info@newskills.dk">info@newskills.dk</a>
+            </span>
+          </div>
+          
+          <div id="widget-footer" class="clearfix">
+            <?php if ( !function_exists('dynamic_sidebar') || !dynamic_sidebar('footer') ) : ?>
+            <?php endif; ?>
+          </div>
+			
 					<nav class="clearfix">
 						<?php bones_footer_links(); // Adjust using Menus in Wordpress Admin ?>
 					</nav>
 					
-					<p class="attribution">&copy; <?php bloginfo('name'); ?> 2013</p>
-				
 				</div> <!-- end #inner-footer -->
 				
 			</footer> <!-- end footer -->

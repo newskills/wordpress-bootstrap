@@ -38,34 +38,74 @@ get_header(); ?>
           ?>
         </header>
           <?php if ( single_cat_title( '', false ) == 'Kurser &amp; Moduler' ) : ?>
-            <?php
-              $post_type = $wp->query_vars[ 'post_type' ];
-              $tax = 'event-category';
-              $tax_terms = get_terms( $tax, array( 'hide_empty' => 0, 'child_of' => 4, 'hierarchical'  => 0 ) );
+            <div class="accordion" id="courses">
+              <?php
+                $post_type = $wp->query_vars[ 'post_type' ];
+                $tax = 'event-category';
+                $tax_terms = get_terms( $tax, array( 'hide_empty' => 0, 'child_of' => 4, 'hierarchical'  => 0 ) );
 
-              //list everything
-              if ( $tax_terms ) {
-                foreach ( $tax_terms as $tax_term ) {
-                  $args = array (
-                    'post_type' => 'events',
-                    "$tax" => $tax_term->slug,
-                    'post_status' => 'publish',
-                    'posts_per_page' => -1
-                  );
+                //list everything
+                if ( $tax_terms ) {
+                  foreach ( $tax_terms as $tax_term ) {
+                    $args = array (
+                      'post_type' => 'events',
+                      "$tax" => $tax_term->slug,
+                      'post_status' => 'publish',
+                      'posts_per_page' => -1
+                    );
 
-                  $my_query = null;
-                  $my_query = new WP_Query( $args );
-                  if( $my_query->have_posts() ) {
-                    echo "<h2 class=\"tax_term-heading\" id=\"".$tax_term->slug."\"> $tax_term->name </h2>";
-                    while ( $my_query->have_posts() ) : $my_query->the_post(); ?>
-                      <p><a href="<?php the_permalink() ?>" rel="bookmark" title="Permanent Link to <?php the_title_attribute(); ?>"><?php the_title(); ?></a></p>
-                      <?php
-                    endwhile;
+                    $my_query = null;
+                    $my_query = new WP_Query( $args );
+                    if( $my_query->have_posts() ) {
+                      echo "<div class=\"accordion-group\">".
+                        "<div class=\"accordion-heading\">".
+                        "<a class=\"accordion-toggle\" data-toggle=\"collapse\" data-parent=\"#courses\" ".
+                        "href=\"#".$tax_term->slug."\">".$tax_term->name."</a>".
+                        "</div>".
+                        "<div id=\"".$tax_term->slug."\" class=\"accordion-body collapse out\">".
+                        "<div class=\"accordion-inner\">";
+                      while ( $my_query->have_posts() ) : $my_query->the_post(); ?>
+                            <?php the_title(); ?>
+                        <?php
+                      endwhile;
+                      echo "</div>".
+                        "</div>".
+                        "</div>";
+                    }
+                    wp_reset_query();
                   }
-                  wp_reset_query();
                 }
-              }
-            ?>
+              ?>
+            </div>
+
+            <div class="accordion" id="accordion2">
+              <div class="accordion-group">
+                <div class="accordion-heading">
+                  <a class="accordion-toggle" data-toggle="collapse" data-parent="#accordion2" href="#collapseOne">
+                    Collapsible Group Item #1
+                  </a>
+                </div>
+                <div id="collapseOne" class="accordion-body collapse in">
+                  <div class="accordion-inner">
+                    Anim pariatur cliche...
+                  </div>
+                </div>
+              </div>
+              <div class="accordion-group">
+                <div class="accordion-heading">
+                  <a class="accordion-toggle" data-toggle="collapse" data-parent="#accordion2" href="#collapseTwo">
+                    Collapsible Group Item #2
+                  </a>
+                </div>
+                <div id="collapseTwo" class="accordion-body collapse">
+                  <div class="accordion-inner">
+                    Anim pariatur cliche...<br>
+                    lkajsdfælkadjsf<br>
+                    ælakdfjs
+                  </div>
+                </div>
+              </div>
+            </div>
           <?php else : ?>
 
             <?php /* Start the Loop */ ?>

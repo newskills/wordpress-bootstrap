@@ -4879,6 +4879,11 @@ a.badge:hover {
 .affix {
   position: fixed;
 }
+.navbar {
+  -webkit-box-shadow: 0 3px 5px rgba(0, 0, 0, 0.45);
+  -moz-box-shadow: 0 3px 5px rgba(0, 0, 0, 0.45);
+  box-shadow: 0 3px 5px rgba(0, 0, 0, 0.45);
+}
 #logo {
   background: url(../../images/newskills_logo.png) 5px 5px no-repeat;
   text-indent: -999em;
@@ -4941,6 +4946,16 @@ a.badge:hover {
 .sidebar-header .EO_Event_List_Widget li .eo-list-date {
   float: right;
 }
+#inner-footer {
+  text-align: center;
+}
+#inner-footer div {
+  margin-left: auto;
+  margin-right: auto;
+}
 .nsu_widget .widgettitle {
   margin: 0;
+}
+.social_stickers_widget {
+  margin-bottom: 2em !important;
 }
