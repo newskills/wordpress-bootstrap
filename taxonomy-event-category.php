@@ -57,6 +57,7 @@ get_header(); ?>
                     $my_query = null;
                     $my_query = new WP_Query( $args );
                     if( $my_query->have_posts() ) {
+                      $previous_title = '';
                       echo "<div class=\"accordion-group\">".
                         "<div class=\"accordion-heading\">".
                         "<a class=\"accordion-toggle\" data-toggle=\"collapse\" data-parent=\"#courses\" ".
@@ -64,10 +65,18 @@ get_header(); ?>
                         "</div>".
                         "<div id=\"".$tax_term->slug."\" class=\"accordion-body collapse out\">".
                         "<div class=\"accordion-inner\">";
-                      while ( $my_query->have_posts() ) : $my_query->the_post(); ?>
-                            <?php the_title(); ?>
-                        <?php
-                      endwhile;
+                      
+                      while ( $my_query->have_posts() ) {
+                        $my_query->the_post();
+                        if ( get_the_title() == $previous_title ) {
+                          continue;
+                        } else {
+                          $previous_title = get_the_title();
+                          echo "<a href=\"".get_permalink()."\" title=\"".the_title_attribute('echo=0')."\">".
+                            the_title_attribute('echo=0')."</a>";
+                        }
+                      }
+                      
                       echo "</div>".
                         "</div>".
                         "</div>";
@@ -78,34 +87,6 @@ get_header(); ?>
               ?>
             </div>
 
-            <div class="accordion" id="accordion2">
-              <div class="accordion-group">
-                <div class="accordion-heading">
-                  <a class="accordion-toggle" data-toggle="collapse" data-parent="#accordion2" href="#collapseOne">
-                    Collapsible Group Item #1
-                  </a>
-                </div>
-                <div id="collapseOne" class="accordion-body collapse in">
-                  <div class="accordion-inner">
-                    Anim pariatur cliche...
-                  </div>
-                </div>
-              </div>
-              <div class="accordion-group">
-                <div class="accordion-heading">
-                  <a class="accordion-toggle" data-toggle="collapse" data-parent="#accordion2" href="#collapseTwo">
-                    Collapsible Group Item #2
-                  </a>
-                </div>
-                <div id="collapseTwo" class="accordion-body collapse">
-                  <div class="accordion-inner">
-                    Anim pariatur cliche...<br>
-                    lkajsdfælkadjsf<br>
-                    ælakdfjs
-                  </div>
-                </div>
-              </div>
-            </div>
           <?php else : ?>
 
             <?php /* Start the Loop */ ?>
