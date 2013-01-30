@@ -13,9 +13,7 @@
               <?php the_post_thumbnail( 'wpbs-featured' ); ?>
               
               <div class="page-header"><h1 class="single-title" itemprop="headline"><?php the_title(); ?></h1></div>
-              
-              <p class="meta"><?php _e("Posted", "bonestheme"); ?> <time datetime="<?php echo the_time('Y-m-j'); ?>" pubdate><?php the_date(); ?></time> <?php _e("by", "bonestheme"); ?> <?php the_author_posts_link(); ?> <span class="amp">&</span> <?php _e("filed under", "bonestheme"); ?> <?php the_category(', '); ?>.</p>
-            
+                          
             </header> <!-- end article header -->
           
             <section class="post_content clearfix" itemprop="articleBody">
@@ -25,9 +23,7 @@
             </section> <!-- end article section -->
             
             <footer>
-      
-              <?php the_tags('<p class="tags"><span class="tags-title">' . __("Tags","bonestheme") . ':</span> ', ' ', '</p>'); ?>
-              
+                    
               <?php 
               // only show edit button if user has permission to edit posts
               if( $user_level > 0 ) { 
@@ -38,8 +34,6 @@
             </footer> <!-- end article footer -->
           
           </article> <!-- end article -->
-          
-          <?php comments_template('',true); ?>
           
           <?php endwhile; ?>      
           
