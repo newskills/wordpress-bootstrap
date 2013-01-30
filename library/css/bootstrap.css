@@ -4900,6 +4900,9 @@ a.badge:hover {
   -moz-box-shadow: inset 0 -3px 5px rgba(0, 0, 0, 0.045);
   box-shadow: inset 0 -3px 5px rgba(0, 0, 0, 0.045);
 }
+#content {
+  padding-top: 40px !important;
+}
 .sidebar-header {
   background: rgba(0, 0, 0, 0.7);
   padding: 10px;
@@ -4945,6 +4948,27 @@ a.badge:hover {
 }
 .sidebar-header .EO_Event_List_Widget li .eo-list-date {
   float: right;
+}
+.fluid-sidebar .widget {
+  min-height: 20px;
+  padding: 19px;
+  margin-bottom: 20px;
+  background-color: #f5f5f5;
+  border: 1px solid #e3e3e3;
+  -webkit-border-radius: 4px;
+  -moz-border-radius: 4px;
+  border-radius: 4px;
+  -webkit-box-shadow: inset 0 1px 1px rgba(0, 0, 0, 0.05);
+  -moz-box-shadow: inset 0 1px 1px rgba(0, 0, 0, 0.05);
+  box-shadow: inset 0 1px 1px rgba(0, 0, 0, 0.05);
+  padding: 9px;
+  -webkit-border-radius: 3px;
+  -moz-border-radius: 3px;
+  border-radius: 3px;
+}
+.fluid-sidebar .widget blockquote {
+  border-color: #ddd;
+  border-color: rgba(0, 0, 0, 0.15);
 }
 #inner-footer {
   text-align: center;
