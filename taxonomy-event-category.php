@@ -42,7 +42,12 @@ get_header(); ?>
               <?php
                 $post_type = $wp->query_vars[ 'post_type' ];
                 $tax = 'event-category';
-                $tax_terms = get_terms( $tax, array( 'hide_empty' => 0, 'child_of' => 4, 'hierarchical'  => 0 ) );
+                $tax_terms = get_terms( $tax, array(
+                  'hide_empty' => 0,
+                  'child_of' => 4,
+                  'hierarchical' => 0,
+                  'orderby' => 'term_order'
+                ));
 
                 //list everything
                 if ( $tax_terms ) {
