@@ -24,7 +24,7 @@
   padding-left:  20px;
   padding-right: 20px;
   #gradient > .vertical(@navbarBackgroundHighlight, @navbarBackground);
-  border: 1px solid @navbarBorder;
+  //border: 1px solid @navbarBorder;
   .border-radius(4px);
   .box-shadow(0 1px 4px rgba(0,0,0,.065));
 
@@ -50,8 +50,8 @@
   float: left;
   display: block;
   // Vertically center the text given @navbarHeight
-  padding: ((@navbarHeight - @baseLineHeight) / 2) 20px ((@navbarHeight - @baseLineHeight) / 2);
-  margin-left: -20px; // negative indent to left-align the text down the page
+  padding: 10px;
+  margin-right: -15px; // negative indent to right-align the text down the page
   font-size: 20px;
   font-weight: 200;
   color: @navbarBrandColor;
@@ -224,7 +224,7 @@
   left: 0;
   display: block;
   float: left;
-  margin: 0 10px 0 0;
+  margin: 53px 0 0 0;
 }
 .navbar .nav.pull-right {
   float: right; // redeclare due to specificity
@@ -232,16 +232,20 @@
 }
 .navbar .nav > li {
   float: left;
+  text-transform: uppercase;
 }
 
 // Links
 .navbar .nav > li > a {
   float: none;
   // Vertically center the text given @navbarHeight
-  padding: ((@navbarHeight - @baseLineHeight) / 2) 15px ((@navbarHeight - @baseLineHeight) / 2);
+  padding: 3px 15px;
   color: @navbarLinkColor;
   text-decoration: none;
   text-shadow: 0 1px 0 @navbarBackgroundHighlight;
+  border-width: 1px;
+  border-style: solid;
+  border-color: transparent;
 }
 .navbar .nav .dropdown-toggle .caret {
   margin-top: 8px;
@@ -261,8 +265,9 @@
 .navbar .nav > .active > a:focus {
   color: @navbarLinkColorActive;
   text-decoration: none;
-  background-color: @navbarLinkBackgroundActive;
-  .box-shadow(inset 0 3px 8px rgba(0,0,0,.125));
+  //background-color: @navbarLinkBackgroundActive;
+  border-color: @navbarLinkColorActive;
+  //.box-shadow(inset 0 3px 8px rgba(0,0,0,.125));
 }
 
 // Navbar button for toggling navbar items in responsive layouts

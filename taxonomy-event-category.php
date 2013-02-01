@@ -37,6 +37,7 @@ get_header(); ?>
               echo apply_filters( 'category_archive_meta', '<div class="category-archive-meta">' . $category_description . '</div>' );
           ?>
         </header>
+          <?php echo do_shortcode('[otw_is sidebar=otw-sidebar-1]'); ?>
           <?php if ( single_cat_title( '', false ) == 'Kurser &amp; Moduler' ) : ?>
             <div class="accordion" id="courses">
               <?php

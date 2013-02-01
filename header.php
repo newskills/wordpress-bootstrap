@@ -49,7 +49,7 @@
 		<!-- end of wordpress head -->
 
 		<!-- theme options from options panel -->
-		<?php get_wpbs_theme_options(); ?>
+		<?php //get_wpbs_theme_options(); ?>
 
 		<?php 
 
@@ -93,22 +93,22 @@
 		
 			<div id="inner-header" class="clearfix">
 				
-				<div class="navbar navbar-inverse navbar-fixed-top">
+				<div class="navbar navbar-fixed-top">
 					<div class="navbar-inner">
 						<div class="container-fluid nav-container">
 							<nav role="navigation">
-								<a class="brand" id="logo" title="<?php echo get_bloginfo('description'); ?>" href="<?php echo home_url(); ?>"><?php bloginfo('name'); ?></a>
-								
+								<a class="brand" id="logo" title="<?php bloginfo('name'); ?>" href="<?php echo home_url(); ?>"></a>
+
 								<a class="btn btn-navbar" data-toggle="collapse" data-target=".nav-collapse">
 					        <span class="icon-bar"></span>
 					        <span class="icon-bar"></span>
 					        <span class="icon-bar"></span>
 								</a>
-								
-								<div class="nav-collapse pull-right">
+
+								<div class="nav-collapse">
 									<?php bones_main_nav(); // Adjust using Menus in Wordpress Admin ?>
 								</div>
-								
+
 							</nav>
 							
 							<?php if(of_get_option('search_bar', '1')) {?>
