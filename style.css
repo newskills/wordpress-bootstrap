@@ -543,10 +543,6 @@ blockquote.pull-left{
 		padding-left: 0;
 	}
 	
-	.sidebar{
-		margin-top: 0 !important;
-	}
-	
 	.widget_search input{
 		width: 230px;
 	}

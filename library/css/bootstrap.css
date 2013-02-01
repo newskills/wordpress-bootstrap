@@ -578,8 +578,6 @@ h4 small {
 }
 .page-header {
   padding-bottom: 9px;
-  margin: 20px 0 0 0;
-  margin: 20px 0 0 0;
 }
 ul,
 ol {
@@ -4908,6 +4906,13 @@ a.badge:hover {
 }
 #content {
   padding-top: 40px !important;
+}
+.page-header,
+.entry-header {
+  margin: 20px 0 0 0;
+}
+.sidebar {
+  margin-top: 24px;
 }
 .sidebar-header {
   background: rgba(0, 0, 0, 0.7);
