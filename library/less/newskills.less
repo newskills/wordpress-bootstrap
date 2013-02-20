@@ -61,16 +61,26 @@
       text-transform: uppercase;
     }
     li {
-      .clearfix;
+      a {
+        display: block;
+        text-decoration: none;
+        color: white;
+        background: transparent;
+        .clearfix;
+      }
       span {
         display: block;
       }
-      .eo-list-date {
-        //margin-top: @baseLineHeight;
-        .pull-right;
-      }
       .eo-list-desc {
 
+      }
+      .eo-list-date {
+        .pull-right;
+        i {
+          .iconless;
+          .icon-calendar;
+          .icon-white;
+        }
       }
     }
   }
@@ -80,6 +90,24 @@
   .widget {
     .well;
     .well-small;
+  }
+  .EO_Event_List_Widget {
+    .eo-events-widget {
+      list-style: none;
+      margin: 0;
+      padding: 0;
+      li {
+        a {
+          display: none;
+        }
+        .eo-list-desc {
+          display: none;
+        }
+        .eo-list-date {
+          
+        }
+      }
+    }
   }
 }
 

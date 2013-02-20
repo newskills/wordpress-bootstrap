@@ -1794,7 +1794,8 @@ table [class*=span],
   background-color: #c4e3f3;
 }
 [class^="icon-"],
-[class*=" icon-"] {
+[class*=" icon-"],
+.iconless {
   display: inline-block;
   width: 14px;
   height: 14px;
@@ -4942,16 +4943,20 @@ a.badge:hover {
   font-size: 20px;
   text-transform: uppercase;
 }
-.sidebar-header .EO_Event_List_Widget li {
+.sidebar-header .EO_Event_List_Widget li a {
+  display: block;
+  text-decoration: none;
+  color: white;
+  background: transparent;
   *zoom: 1;
 }
-.sidebar-header .EO_Event_List_Widget li:before,
-.sidebar-header .EO_Event_List_Widget li:after {
+.sidebar-header .EO_Event_List_Widget li a:before,
+.sidebar-header .EO_Event_List_Widget li a:after {
   display: table;
   content: "";
   line-height: 0;
 }
-.sidebar-header .EO_Event_List_Widget li:after {
+.sidebar-header .EO_Event_List_Widget li a:after {
   clear: both;
 }
 .sidebar-header .EO_Event_List_Widget li span {
@@ -4959,6 +4964,20 @@ a.badge:hover {
 }
 .sidebar-header .EO_Event_List_Widget li .eo-list-date {
   float: right;
+}
+.sidebar-header .EO_Event_List_Widget li .eo-list-date i {
+  display: inline-block;
+  width: 14px;
+  height: 14px;
+  *margin-right: .3em;
+  line-height: 14px;
+  vertical-align: text-top;
+  background-image: url("../img/glyphicons-halflings.png");
+  background-position: 14px 14px;
+  background-repeat: no-repeat;
+  margin-top: 1px;
+  background-position: -192px -120px;
+  background-image: url("../img/glyphicons-halflings-white.png");
 }
 .fluid-sidebar .widget {
   min-height: 20px;
@@ -4980,6 +4999,17 @@ a.badge:hover {
 .fluid-sidebar .widget blockquote {
   border-color: #ddd;
   border-color: rgba(0, 0, 0, 0.15);
+}
+.fluid-sidebar .EO_Event_List_Widget .eo-events-widget {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+.fluid-sidebar .EO_Event_List_Widget .eo-events-widget li a {
+  display: none;
+}
+.fluid-sidebar .EO_Event_List_Widget .eo-events-widget li .eo-list-desc {
+  display: none;
 }
 #inner-footer {
   text-align: center;
