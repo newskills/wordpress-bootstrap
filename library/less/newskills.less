@@ -14,8 +14,8 @@
 
 .banner {
   min-height: 250px;
-  padding: 50px 0;
-  background-image: url(../../images/pencil.jpg);
+  padding: 29px 0 0 0;
+  background-image: url(../../images/forsidetopmand.jpg);
   background-size: cover;
   background-position: 50% 30%;
   border-bottom: 1px solid #ccc;
@@ -38,7 +38,7 @@
   background: rgba( 0, 0, 0, .7 );
   padding: 10px;
   color: rgba( 255, 255, 255, .9 );
-  .border-radius( 4px );
+  //.border-radius( 4px );
   ul {
     list-style: none;
     margin: 0;
@@ -46,17 +46,19 @@
   }
   li {
     padding: 5px;
-    border-bottom: 1px solid rgba(255, 255, 255, .1);
+    //border-bottom: 1px solid rgba(255, 255, 255, .1);
   }
+  /*
   li:last-child {
     border-bottom: 1px solid transparent;
   }
+  */
   .widget {
     margin-bottom: 0 !important;
   }
   .EO_Event_List_Widget {
     h2 {
-      margin: 0 0 5px 0;
+      margin: 20px 0 -10px 5px;
       font-size: 20px;
       text-transform: uppercase;
     }
@@ -66,21 +68,19 @@
         text-decoration: none;
         color: white;
         background: transparent;
-        .clearfix;
+        text-transform: uppercase;
       }
-      span {
-        display: block;
+      h3 {
+        font-size: 14px;
+        font-family: @sansFontFamily;
+        margin-bottom: 0px;
+        text-transform: lowercase;
+        color: @navbarLinkBackgroundHover;
       }
-      .eo-list-desc {
-
-      }
-      .eo-list-date {
-        .pull-right;
-        i {
-          .iconless;
-          .icon-calendar;
-          .icon-white;
-        }
+    }
+    &:last-child {
+      .eo-events-widget {
+        margin-bottom: 20px;
       }
     }
   }

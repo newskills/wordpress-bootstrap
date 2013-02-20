@@ -3531,7 +3531,7 @@ input[type="submit"].btn.btn-mini {
   color: #777777;
 }
 .navbar-link:hover {
-  color: #f57336;
+  color: #ffffff;
 }
 .navbar .divider-vertical {
   height: 63px;
@@ -3689,15 +3689,16 @@ input[type="submit"].btn.btn-mini {
 }
 .navbar .nav > li > a:focus,
 .navbar .nav > li > a:hover {
-  background-color: transparent;
-  color: #f57336;
+  background-color: #f57336;
+  color: #ffffff;
   text-decoration: none;
 }
 .navbar .nav > .active > a,
 .navbar .nav > .active > a:hover,
 .navbar .nav > .active > a:focus {
-  color: #f57336;
+  color: #ffffff;
   text-decoration: none;
+  background-color: #f57336;
   border-color: #f57336;
 }
 .navbar .btn-navbar {
@@ -3791,8 +3792,8 @@ input[type="submit"].btn.btn-mini {
 .navbar .nav li.dropdown.open > .dropdown-toggle,
 .navbar .nav li.dropdown.active > .dropdown-toggle,
 .navbar .nav li.dropdown.open.active > .dropdown-toggle {
-  background-color: #cfcfcf;
-  color: #f57336;
+  background-color: #f57336;
+  color: #ffffff;
 }
 .navbar .nav li.dropdown > .dropdown-toggle .caret {
   border-top-color: #777777;
@@ -3801,8 +3802,8 @@ input[type="submit"].btn.btn-mini {
 .navbar .nav li.dropdown.open > .dropdown-toggle .caret,
 .navbar .nav li.dropdown.active > .dropdown-toggle .caret,
 .navbar .nav li.dropdown.open.active > .dropdown-toggle .caret {
-  border-top-color: #f57336;
-  border-bottom-color: #f57336;
+  border-top-color: #ffffff;
+  border-bottom-color: #ffffff;
 }
 .navbar .pull-right > li > .dropdown-menu,
 .navbar .nav > li > .dropdown-menu.pull-right {
@@ -4896,8 +4897,8 @@ a.badge:hover {
 }
 .banner {
   min-height: 250px;
-  padding: 50px 0;
-  background-image: url(../../images/pencil.jpg);
+  padding: 29px 0 0 0;
+  background-image: url(../../images/forsidetopmand.jpg);
   background-size: cover;
   background-position: 50% 30%;
   border-bottom: 1px solid #ccc;
@@ -4919,9 +4920,12 @@ a.badge:hover {
   background: rgba(0, 0, 0, 0.7);
   padding: 10px;
   color: rgba(255, 255, 255, 0.9);
-  -webkit-border-radius: 4px;
-  -moz-border-radius: 4px;
-  border-radius: 4px;
+  /*
+  li:last-child {
+    border-bottom: 1px solid transparent;
+  }
+  */
+
 }
 .sidebar-header ul {
   list-style: none;
@@ -4930,16 +4934,12 @@ a.badge:hover {
 }
 .sidebar-header li {
   padding: 5px;
-  border-bottom: 1px solid rgba(255, 255, 255, 0.1);
-}
-.sidebar-header li:last-child {
-  border-bottom: 1px solid transparent;
 }
 .sidebar-header .widget {
   margin-bottom: 0 !important;
 }
 .sidebar-header .EO_Event_List_Widget h2 {
-  margin: 0 0 5px 0;
+  margin: 20px 0 -10px 5px;
   font-size: 20px;
   text-transform: uppercase;
 }
@@ -4948,36 +4948,17 @@ a.badge:hover {
   text-decoration: none;
   color: white;
   background: transparent;
-  *zoom: 1;
+  text-transform: uppercase;
 }
-.sidebar-header .EO_Event_List_Widget li a:before,
-.sidebar-header .EO_Event_List_Widget li a:after {
-  display: table;
-  content: "";
-  line-height: 0;
+.sidebar-header .EO_Event_List_Widget li h3 {
+  font-size: 14px;
+  font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+  margin-bottom: 0px;
+  text-transform: lowercase;
+  color: #f57336;
 }
-.sidebar-header .EO_Event_List_Widget li a:after {
-  clear: both;
-}
-.sidebar-header .EO_Event_List_Widget li span {
-  display: block;
-}
-.sidebar-header .EO_Event_List_Widget li .eo-list-date {
-  float: right;
-}
-.sidebar-header .EO_Event_List_Widget li .eo-list-date i {
-  display: inline-block;
-  width: 14px;
-  height: 14px;
-  *margin-right: .3em;
-  line-height: 14px;
-  vertical-align: text-top;
-  background-image: url("../img/glyphicons-halflings.png");
-  background-position: 14px 14px;
-  background-repeat: no-repeat;
-  margin-top: 1px;
-  background-position: -192px -120px;
-  background-image: url("../img/glyphicons-halflings-white.png");
+.sidebar-header .EO_Event_List_Widget:last-child .eo-events-widget {
+  margin-bottom: 20px;
 }
 .fluid-sidebar .widget {
   min-height: 20px;
