@@ -4920,12 +4920,6 @@ a.badge:hover {
   background: rgba(0, 0, 0, 0.7);
   padding: 10px;
   color: rgba(255, 255, 255, 0.9);
-  /*
-  li:last-child {
-    border-bottom: 1px solid transparent;
-  }
-  */
-
 }
 .sidebar-header ul {
   list-style: none;
@@ -4933,7 +4927,7 @@ a.badge:hover {
   padding: 0;
 }
 .sidebar-header li {
-  padding: 5px;
+  padding: 0 5px;
 }
 .sidebar-header .widget {
   margin-bottom: 0 !important;
