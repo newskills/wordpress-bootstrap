@@ -5086,17 +5086,17 @@ a.badge:hover {
 .accordion-group.cross-media-design-kommunikation li a {
   color: #1f958e;
 }
-.accordion-group.innovation .accordion-toggle:hover,
-.accordion-group.innovation li a:hover {
+.accordion-group.innovation-ivaerksaetteri .accordion-toggle:hover,
+.accordion-group.innovation-ivaerksaetteri li a:hover {
   background: #f0351f;
 }
-.accordion-group.innovation li a {
+.accordion-group.innovation-ivaerksaetteri li a {
   color: #f0351f;
 }
-.accordion-group.webproduktion .accordion-toggle:hover,
-.accordion-group.webproduktion li a:hover {
+.accordion-group.it-webproduktion .accordion-toggle:hover,
+.accordion-group.it-webproduktion li a:hover {
   background: #f67c13;
 }
-.accordion-group.webproduktion li a {
+.accordion-group.it-webproduktion li a {
   color: #f67c13;
 }
