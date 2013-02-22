@@ -69,7 +69,7 @@ get_header(); ?>
                         "<a class=\"accordion-toggle\" data-toggle=\"collapse\" data-parent=\"#courses\" ".
                         "href=\"#".$tax_term->slug."\">".$tax_term->name."</a>".
                         "</div>".
-                        "<div class=\"accordion-body collapse in\">".
+                        "<div id=\"".$tax_term->slug."\" class=\"accordion-body collapse in\">".
                         "<div class=\"accordion-inner ".$tax_term->slug."\"><ul>";
                       
                       while ( $my_query->have_posts() ) {
