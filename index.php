@@ -15,7 +15,7 @@
 				}
 			?>
 			
-			<div id="content" class="clearfix row-fluid">
+			<div id="content" class="clearfix row-fluid home-content">
 			
 				<div class="span4 home-left">
 					<img src="<?php bloginfo('template_directory'); ?>/images/ns_indgang.jpg" alt="NEW Skills indgangsparti">

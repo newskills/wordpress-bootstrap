@@ -63,27 +63,27 @@ get_header(); ?>
                     $my_query = null;
                     $my_query = new WP_Query( $args );
                     if( $my_query->have_posts() ) {
-                      $previous_title = '';
-                      echo "<div class=\"accordion-group\">".
+                      $previous_titles = array();
+                      echo "<div class=\"accordion-group ".$tax_term->slug."\">".
                         "<div class=\"accordion-heading\">".
                         "<a class=\"accordion-toggle\" data-toggle=\"collapse\" data-parent=\"#courses\" ".
                         "href=\"#".$tax_term->slug."\">".$tax_term->name."</a>".
                         "</div>".
-                        "<div id=\"".$tax_term->slug."\" class=\"accordion-body collapse out\">".
-                        "<div class=\"accordion-inner\">";
+                        "<div class=\"accordion-body collapse in\">".
+                        "<div class=\"accordion-inner ".$tax_term->slug."\"><ul>";
                       
                       while ( $my_query->have_posts() ) {
                         $my_query->the_post();
-                        if ( get_the_title() == $previous_title ) {
+                        if ( in_array( get_the_title(), $previous_titles ) ) {
                           continue;
                         } else {
-                          $previous_title = get_the_title();
-                          echo "<a href=\"".get_permalink()."\" title=\"".the_title_attribute('echo=0')."\">".
-                            the_title_attribute('echo=0')."</a>";
+                          $previous_titles[] = get_the_title();
+                          echo "<li><a href=\"".get_permalink()."\" title=\"".the_title_attribute('echo=0')."\">".
+                            the_title_attribute('echo=0')."</a></li>";
                         }
                       }
                       
-                      echo "</div>".
+                      echo "</ul></div>".
                         "</div>".
                         "</div>";
                     }

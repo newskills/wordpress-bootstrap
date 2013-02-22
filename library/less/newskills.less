@@ -106,6 +106,9 @@
   }
 }
 
+.home-content {
+  margin-top: -20px;
+}
 .home-left {
   .date {
     color: @navbarLinkBackgroundHover;
@@ -126,7 +129,6 @@
   }
 }
 .home-left, .home-right {
-  margin-top: -20px;
   h2 {
     line-height: 28px;
   }
@@ -149,4 +151,99 @@
 
 .social_stickers_widget {
   margin-bottom: 2em !important;
+}
+
+
+// Styles for the accordion
+// ------------------------
+
+@businessAdmin:     #2a4378;
+@ebizz:             #825e14;
+@crossMedia:        #1f958e;
+@innovation:        #f0351f;
+@webproduktion:     #f67c13;
+
+.accordion-group {
+  border: none;
+  margin-bottom: 0;
+  .accordion-heading {
+    background: @grayLighter;
+    .accordion-toggle {
+      color: @textColor;
+      text-transform: uppercase;
+      font-weight: bold;
+      padding: 5px 20px;
+      &:hover {
+        color: white;
+      }
+    }
+  }
+
+  .accordion-inner {
+    padding: 0;
+    border: none;
+    ul {
+      list-style: none;
+      margin: 0 0 0 20px;
+      padding: 0;
+      li {
+        display: block;
+        background: @grayLighter;
+        text-transform: uppercase;
+        margin: 2px 0;
+        a {
+          text-decoration: none;
+          display: block;
+          padding: 5px 20px;
+        }
+        a:hover {
+          color: white;
+        }
+      }
+    }
+  }
+  
+  &:hover .accordion-toggle {
+    text-decoration: none;
+  }
+  &.business-administration {
+    .accordion-toggle:hover, li a:hover {
+      background: @businessAdmin;
+    }
+    li a {
+      color: @businessAdmin;
+    }
+  }
+  &.e-business-digital-marketing {
+    .accordion-toggle:hover, li a:hover {
+      background: @ebizz;
+    }
+    li a {
+      color: @ebizz;
+    }
+  }
+  &.cross-media-design-kommunikation {
+    .accordion-toggle:hover, li a:hover {
+      background: @crossMedia;
+    }
+    li a {
+      color: @crossMedia;
+    }
+  }
+  &.innovation {
+    .accordion-toggle:hover, li a:hover {
+      background: @innovation;
+    }
+    li a {
+      color: @innovation;
+    }
+  }
+  &.webproduktion {
+    .accordion-toggle:hover, li a:hover {
+      background: @webproduktion;
+    }
+    li a {
+      color: @webproduktion;
+    }
+  }
 }

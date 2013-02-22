@@ -4986,6 +4986,9 @@ a.badge:hover {
 .fluid-sidebar .EO_Event_List_Widget .eo-events-widget li .eo-list-desc {
   display: none;
 }
+.home-content {
+  margin-top: -20px;
+}
 .home-left .date {
   color: #f57336;
   margin: 0;
@@ -5003,10 +5006,6 @@ a.badge:hover {
   color: black;
   text-decoration: none;
 }
-.home-left,
-.home-right {
-  margin-top: -20px;
-}
 .home-left h2,
 .home-right h2 {
   line-height: 28px;
@@ -5023,4 +5022,81 @@ a.badge:hover {
 }
 .social_stickers_widget {
   margin-bottom: 2em !important;
+}
+.accordion-group {
+  border: none;
+  margin-bottom: 0;
+}
+.accordion-group .accordion-heading {
+  background: #eeeeee;
+}
+.accordion-group .accordion-heading .accordion-toggle {
+  color: #333333;
+  text-transform: uppercase;
+  font-weight: bold;
+  padding: 5px 20px;
+}
+.accordion-group .accordion-heading .accordion-toggle:hover {
+  color: white;
+}
+.accordion-group .accordion-inner {
+  padding: 0;
+  border: none;
+}
+.accordion-group .accordion-inner ul {
+  list-style: none;
+  margin: 0 0 0 20px;
+  padding: 0;
+}
+.accordion-group .accordion-inner ul li {
+  display: block;
+  background: #eeeeee;
+  text-transform: uppercase;
+  margin: 2px 0;
+}
+.accordion-group .accordion-inner ul li a {
+  text-decoration: none;
+  display: block;
+  padding: 5px 20px;
+}
+.accordion-group .accordion-inner ul li a:hover {
+  color: white;
+}
+.accordion-group:hover .accordion-toggle {
+  text-decoration: none;
+}
+.accordion-group.business-administration .accordion-toggle:hover,
+.accordion-group.business-administration li a:hover {
+  background: #2a4378;
+}
+.accordion-group.business-administration li a {
+  color: #2a4378;
+}
+.accordion-group.e-business-digital-marketing .accordion-toggle:hover,
+.accordion-group.e-business-digital-marketing li a:hover {
+  background: #825e14;
+}
+.accordion-group.e-business-digital-marketing li a {
+  color: #825e14;
+}
+.accordion-group.cross-media-design-kommunikation .accordion-toggle:hover,
+.accordion-group.cross-media-design-kommunikation li a:hover {
+  background: #1f958e;
+}
+.accordion-group.cross-media-design-kommunikation li a {
+  color: #1f958e;
+}
+.accordion-group.innovation .accordion-toggle:hover,
+.accordion-group.innovation li a:hover {
+  background: #f0351f;
+}
+.accordion-group.innovation li a {
+  color: #f0351f;
+}
+.accordion-group.webproduktion .accordion-toggle:hover,
+.accordion-group.webproduktion li a:hover {
+  background: #f67c13;
+}
+.accordion-group.webproduktion li a {
+  color: #f67c13;
 }
