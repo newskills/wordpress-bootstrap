@@ -3,10 +3,10 @@
 				<div id="inner-footer" class="clearfix">
 		      <hr />
 					<div style="margin-bottom: 1.8em">
-            <span style="padding: 0 10px">NEW Skills A/S</span> &bullet;
-            <span style="padding: 0 10px">Rebslagervej 8-16</span> &bullet;
-            <span style="padding: 0 10px">2400 København NV</span> &bullet;
-            <span style="padding: 0 10px">+45 70 21 04 00</span> &bullet;
+            <span style="padding: 0 10px">NEW Skills A/S</span> &bull;
+            <span style="padding: 0 10px">Rebslagervej 8-16</span> &bull;
+            <span style="padding: 0 10px">2400 København NV</span> &bull;
+            <span style="padding: 0 10px">+45 70 21 04 00</span> &bull;
             <span style="padding: 0 10px">
             	<a href="mailto:info@newskills.dk">info@newskills.dk</a>
             </span>
