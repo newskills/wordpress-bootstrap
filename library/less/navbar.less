@@ -224,7 +224,7 @@
   left: 0;
   display: block;
   float: left;
-  margin: 53px 0 0 0;
+  margin: 32px 0 0 0;
 }
 .navbar .nav.pull-right {
   float: right; // redeclare due to specificity
@@ -254,9 +254,10 @@
 // Hover
 .navbar .nav > li > a:focus,
 .navbar .nav > li > a:hover {
-  background-color: @navbarLinkBackgroundHover; // "transparent" is default to differentiate :hover from .active
+  background-color: @navbarLinkBackgroundActive; // "transparent" is default to differentiate :hover from .active
   color: @navbarLinkColorHover;
   text-decoration: none;
+  border-color: @navbarLinkBackgroundActive;
 }
 
 // Active nav items
@@ -265,7 +266,7 @@
 .navbar .nav > .active > a:focus {
   color: @navbarLinkColorActive;
   text-decoration: none;
-  background-color: @navbarLinkBackgroundActive;
+  background-color: transparent;
   border-color: @navbarLinkBackgroundActive;
   //.box-shadow(inset 0 3px 8px rgba(0,0,0,.125));
 }
