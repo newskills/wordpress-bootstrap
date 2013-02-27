@@ -159,13 +159,13 @@
 @navbarCollapseWidth:             979px;
 
 @navbarHeight:                    63px;
-@navbarBackgroundHighlight:       #e9e9e9;
-@navbarBackground:                darken(@navbarBackgroundHighlight, 5%);
-@navbarBorder:                    darken(@navbarBackground, 12%);
+@navbarBackgroundHighlight:       lighten( black, 90% ); //Changed from #e9e9e9;
+@navbarBackground:                @navbarBackgroundHighlight; //darken(@navbarBackgroundHighlight, 5%);
+@navbarBorder:                    darken(@navbarBackground, 12%); //darken(@navbarBackground, 12%);
 
 @navbarText:                      #777;
 @navbarLinkColor:                 #777;
-@navbarLinkColorHover:            #fff;
+@navbarLinkColorHover:            #f57336; //Changed from #fff;
 @navbarLinkColorActive:           #f57336; //Changed from @navbarLinkColorHover
 @navbarLinkBackgroundHover:       #f57336;
 @navbarLinkBackgroundActive:      @navbarLinkBackgroundHover;

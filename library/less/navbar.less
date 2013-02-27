@@ -50,8 +50,8 @@
   float: left;
   display: block;
   // Vertically center the text given @navbarHeight
-  padding: 10px;
-  margin-right: -15px; // negative indent to right-align the text down the page
+  padding: 3px;
+  margin-right: 0px; // negative indent to right-align the text down the page
   font-size: 20px;
   font-weight: 200;
   color: @navbarBrandColor;
@@ -202,7 +202,7 @@
 .navbar-fixed-top,
 .navbar-static-top {
   .navbar-inner {
-    .box-shadow(inset 0 -1px 0 rgba(0,0,0,.1), 0 1px 10px rgba(0,0,0,.1));
+    //.box-shadow(inset 0 -1px 0 rgba(0,0,0,.1), 0 1px 10px rgba(0,0,0,.1));
   }
 }
 
@@ -224,7 +224,7 @@
   left: 0;
   display: block;
   float: left;
-  margin: 32px 0 0 0;
+  margin: 34px 0 0 0;
 }
 .navbar .nav.pull-right {
   float: right; // redeclare due to specificity
@@ -254,10 +254,10 @@
 // Hover
 .navbar .nav > li > a:focus,
 .navbar .nav > li > a:hover {
-  background-color: @navbarLinkBackgroundActive; // "transparent" is default to differentiate :hover from .active
+  background-color: transparent; //@navbarLinkBackgroundActive; // "transparent" is default to differentiate :hover from .active
   color: @navbarLinkColorHover;
   text-decoration: none;
-  border-color: @navbarLinkBackgroundActive;
+  border-color: transparent; //@navbarLinkBackgroundActive;
 }
 
 // Active nav items
@@ -268,7 +268,7 @@
   text-decoration: none;
   background-color: transparent;
   border-color: @navbarLinkBackgroundActive;
-  //.box-shadow(inset 0 3px 8px rgba(0,0,0,.125));
+  .box-shadow(inset 0 3px 8px rgba(0,0,0,.125));
 }
 
 // Navbar button for toggling navbar items in responsive layouts

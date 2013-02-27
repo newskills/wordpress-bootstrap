@@ -3479,14 +3479,14 @@ input[type="submit"].btn.btn-mini {
   min-height: 63px;
   padding-left: 20px;
   padding-right: 20px;
-  background-color: #e4e4e4;
-  background-image: -moz-linear-gradient(top, #e9e9e9, #dcdcdc);
-  background-image: -webkit-gradient(linear, 0 0, 0 100%, from(#e9e9e9), to(#dcdcdc));
-  background-image: -webkit-linear-gradient(top, #e9e9e9, #dcdcdc);
-  background-image: -o-linear-gradient(top, #e9e9e9, #dcdcdc);
-  background-image: linear-gradient(to bottom, #e9e9e9, #dcdcdc);
+  background-color: #e6e6e6;
+  background-image: -moz-linear-gradient(top, #e6e6e6, #e6e6e6);
+  background-image: -webkit-gradient(linear, 0 0, 0 100%, from(#e6e6e6), to(#e6e6e6));
+  background-image: -webkit-linear-gradient(top, #e6e6e6, #e6e6e6);
+  background-image: -o-linear-gradient(top, #e6e6e6, #e6e6e6);
+  background-image: linear-gradient(to bottom, #e6e6e6, #e6e6e6);
   background-repeat: repeat-x;
-  filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#ffe9e9e9', endColorstr='#ffdcdcdc', GradientType=0);
+  filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#ffe6e6e6', endColorstr='#ffe6e6e6', GradientType=0);
   -webkit-border-radius: 4px;
   -moz-border-radius: 4px;
   border-radius: 4px;
@@ -3513,12 +3513,12 @@ input[type="submit"].btn.btn-mini {
 .navbar .brand {
   float: left;
   display: block;
-  padding: 10px;
-  margin-right: -15px;
+  padding: 3px;
+  margin-right: 0px;
   font-size: 20px;
   font-weight: 200;
   color: #777777;
-  text-shadow: 0 1px 0 #e9e9e9;
+  text-shadow: 0 1px 0 #e6e6e6;
 }
 .navbar .brand:hover {
   text-decoration: none;
@@ -3531,13 +3531,13 @@ input[type="submit"].btn.btn-mini {
   color: #777777;
 }
 .navbar-link:hover {
-  color: #ffffff;
+  color: #f57336;
 }
 .navbar .divider-vertical {
   height: 63px;
   margin: 0 9px;
-  border-left: 1px solid #dcdcdc;
-  border-right: 1px solid #e9e9e9;
+  border-left: 1px solid #e6e6e6;
+  border-right: 1px solid #e6e6e6;
 }
 .navbar .btn,
 .navbar .btn-group {
@@ -3645,12 +3645,6 @@ input[type="submit"].btn.btn-mini {
 .navbar-fixed-top {
   top: 0;
 }
-.navbar-fixed-top .navbar-inner,
-.navbar-static-top .navbar-inner {
-  -webkit-box-shadow: inset 0 -1px 0 rgba(0, 0, 0, 0.1), 0 1px 10px rgba(0, 0, 0, 0.1);
-  -moz-box-shadow: inset 0 -1px 0 rgba(0, 0, 0, 0.1), 0 1px 10px rgba(0, 0, 0, 0.1);
-  box-shadow: inset 0 -1px 0 rgba(0, 0, 0, 0.1), 0 1px 10px rgba(0, 0, 0, 0.1);
-}
 .navbar-fixed-bottom {
   bottom: 0;
 }
@@ -3664,7 +3658,7 @@ input[type="submit"].btn.btn-mini {
   left: 0;
   display: block;
   float: left;
-  margin: 32px 0 0 0;
+  margin: 34px 0 0 0;
 }
 .navbar .nav.pull-right {
   float: right;
@@ -3679,7 +3673,7 @@ input[type="submit"].btn.btn-mini {
   padding: 3px 15px;
   color: #777777;
   text-decoration: none;
-  text-shadow: 0 1px 0 #e9e9e9;
+  text-shadow: 0 1px 0 #e6e6e6;
   border-width: 1px;
   border-style: solid;
   border-color: transparent;
@@ -3689,10 +3683,10 @@ input[type="submit"].btn.btn-mini {
 }
 .navbar .nav > li > a:focus,
 .navbar .nav > li > a:hover {
-  background-color: #f57336;
-  color: #ffffff;
+  background-color: transparent;
+  color: #f57336;
   text-decoration: none;
-  border-color: #f57336;
+  border-color: transparent;
 }
 .navbar .nav > .active > a,
 .navbar .nav > .active > a:hover,
@@ -3701,6 +3695,9 @@ input[type="submit"].btn.btn-mini {
   text-decoration: none;
   background-color: transparent;
   border-color: #f57336;
+  -webkit-box-shadow: inset 0 3px 8px rgba(0, 0, 0, 0.125);
+  -moz-box-shadow: inset 0 3px 8px rgba(0, 0, 0, 0.125);
+  box-shadow: inset 0 3px 8px rgba(0, 0, 0, 0.125);
 }
 .navbar .btn-navbar {
   display: none;
@@ -3710,17 +3707,17 @@ input[type="submit"].btn.btn-mini {
   margin-right: 5px;
   color: #ffffff;
   text-shadow: 0 -1px 0 rgba(0, 0, 0, 0.25);
-  background-color: #d7d7d7;
-  background-image: -moz-linear-gradient(top, #dcdcdc, #cfcfcf);
-  background-image: -webkit-gradient(linear, 0 0, 0 100%, from(#dcdcdc), to(#cfcfcf));
-  background-image: -webkit-linear-gradient(top, #dcdcdc, #cfcfcf);
-  background-image: -o-linear-gradient(top, #dcdcdc, #cfcfcf);
-  background-image: linear-gradient(to bottom, #dcdcdc, #cfcfcf);
+  background-color: #d9d9d9;
+  background-image: -moz-linear-gradient(top, #d9d9d9, #d9d9d9);
+  background-image: -webkit-gradient(linear, 0 0, 0 100%, from(#d9d9d9), to(#d9d9d9));
+  background-image: -webkit-linear-gradient(top, #d9d9d9, #d9d9d9);
+  background-image: -o-linear-gradient(top, #d9d9d9, #d9d9d9);
+  background-image: linear-gradient(to bottom, #d9d9d9, #d9d9d9);
   background-repeat: repeat-x;
-  filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#ffdcdcdc', endColorstr='#ffcfcfcf', GradientType=0);
-  border-color: #cfcfcf #cfcfcf #a9a9a9;
+  filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#ffd9d9d9', endColorstr='#ffd9d9d9', GradientType=0);
+  border-color: #d9d9d9 #d9d9d9 #b3b3b3;
   border-color: rgba(0, 0, 0, 0.1) rgba(0, 0, 0, 0.1) rgba(0, 0, 0, 0.25);
-  *background-color: #cfcfcf;
+  *background-color: #d9d9d9;
   /* Darken IE7 buttons by default so they stand out more given they won't have borders */
 
   filter: progid:DXImageTransform.Microsoft.gradient(enabled = false);
@@ -3734,12 +3731,12 @@ input[type="submit"].btn.btn-mini {
 .navbar .btn-navbar.disabled,
 .navbar .btn-navbar[disabled] {
   color: #ffffff;
-  background-color: #cfcfcf;
-  *background-color: #c3c3c3;
+  background-color: #d9d9d9;
+  *background-color: #cccccc;
 }
 .navbar .btn-navbar:active,
 .navbar .btn-navbar.active {
-  background-color: #b6b6b6 \9;
+  background-color: #bfbfbf \9;
 }
 .navbar .btn-navbar .icon-bar {
   display: block;
@@ -4882,23 +4879,19 @@ a.badge:hover {
 .affix {
   position: fixed;
 }
-.navbar {
-  -webkit-box-shadow: 0 1px 2px rgba(0, 0, 0, 0.45);
-  -moz-box-shadow: 0 1px 2px rgba(0, 0, 0, 0.45);
-  box-shadow: 0 1px 2px rgba(0, 0, 0, 0.45);
-}
 .navbar .btn-navbar {
   float: left;
 }
 #logo {
   background: url(../../images/newskills_logo.png) 5px 5px no-repeat;
+  background-size: 85%;
   width: 224px;
   height: 71px;
   float: right;
 }
 .banner {
   min-height: 250px;
-  padding: 29px 0 0 0;
+  padding: 16px 0 0 0;
   background-image: url(../../images/forsidetopmand.jpg);
   background-size: cover;
   background-position: 50% 30%;
