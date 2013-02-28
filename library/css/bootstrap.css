@@ -116,8 +116,8 @@ textarea {
 }
 @font-face {
   font-family: 'MemphisLTStd';
-  src: url('../memphisltstdlight.eot');
-  src: url('../memphisltstdlight.eot?#iefix') format('embedded-opentype'), url('../memphisltstdlight.woff') format('woff'), url('../memphisltstdlight.ttf') format('truetype'), url('../memphisltstdlight.svg#memphisltstdlight') format('svg');
+  src: url('../fonts/memphisltstdlight.eot');
+  src: url('../fonts/memphisltstdlight.eot?#iefix') format('embedded-opentype'), url('../fonts/memphisltstdlight.woff') format('woff'), url('../fonts/memphisltstdlight.ttf') format('truetype'), url('../fonts/memphisltstdlight.svg#memphisltstdlight') format('svg');
   font-weight: normal;
   font-style: normal;
 }
