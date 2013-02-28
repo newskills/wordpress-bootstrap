@@ -4,7 +4,7 @@
 		      <hr />
 					<div style="margin-bottom: 1.8em">
             <span style="padding: 0 10px">NEW Skills A/S</span> &bull;
-            <span style="padding: 0 10px">Rebslagervej 8-16</span> &bull;
+            <span style="padding: 0 10px">Rebslagervej 16</span> &bull;
             <span style="padding: 0 10px">2400 København NV</span> &bull;
             <span style="padding: 0 10px">+45 70 21 04 00</span> &bull;
             <span style="padding: 0 10px">
