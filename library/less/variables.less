@@ -33,7 +33,7 @@
 // Scaffolding
 // -------------------------
 @bodyBackground:        @white;
-@textColor:             @grayDark;
+@textColor:             lighten( #000, 20% );
 
 
 // Links
@@ -42,15 +42,63 @@
 @linkColorHover:        darken(@linkColor, 15%);
 
 
+// Font faces (New Skills)
+// -----------------------
+
+@font-face {
+  font-family: 'MemphisLTStd';
+  src: url('../memphisltstdlight.eot');
+  src: url('../memphisltstdlight.eot?#iefix') format('embedded-opentype'),
+       url('../memphisltstdlight.woff') format('woff'),
+       url('../memphisltstdlight.ttf') format('truetype'),
+       url('../memphisltstdlight.svg#memphisltstdlight') format('svg');
+  font-weight: normal;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'MemphisLTStd';
+  src: url('../fonts/memphisltstdextrabold.eot');
+  src: url('../fonts/memphisltstdextrabold.eot?#iefix') format('embedded-opentype'),
+       url('../fonts/memphisltstdextrabold.woff') format('woff'),
+       url('../fonts/memphisltstdextrabold.ttf') format('truetype'),
+       url('../fonts/memphisltstdextrabold.svg#memphisltstdextrabold') format('svg');
+  font-weight: bold;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'ScalaSansPro';
+  src: url('../fonts/scalasanspro.eot');
+  src: url('../fonts/scalasanspro.eot?#iefix') format('embedded-opentype'),
+       url('../fonts/scalasanspro.woff') format('woff'),
+       url('../fonts/scalasanspro.ttf') format('truetype'),
+       url('../fonts/scalasanspro.svg#scalasanspro') format('svg');
+  font-weight: normal;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'ScalaSansPro';
+  src: url('../fonts/scalasansprobold.eot');
+  src: url('../fonts/scalasansprobold.eot?#iefix') format('embedded-opentype'),
+       url('../fonts/scalasansprobold.woff') format('woff'),
+       url('../fonts/scalasansprobold.ttf') format('truetype'),
+       url('../fonts/scalasansprobold.svg#scalasansprobold') format('svg');
+  font-weight: bold;
+  font-style: normal;
+}
+
+
 // Typography
 // -------------------------
-@sansFontFamily:        "Helvetica Neue", Helvetica, Arial, sans-serif;
-@serifFontFamily:       Georgia, "Times New Roman", Times, serif;
+@sansFontFamily:        "ScalaSansPro", "Helvetica Neue", Helvetica, Arial, sans-serif;
+@serifFontFamily:       "MemphisLTStd", Georgia, "Times New Roman", Times, serif;
 @monoFontFamily:        Monaco, Menlo, Consolas, "Courier New", monospace;
 
 @baseFontSize:          14px;
 @baseFontFamily:        @sansFontFamily;
-@baseLineHeight:        20px;
+@baseLineHeight:        18px;
 @altFontFamily:         @serifFontFamily;
 
 @headingsFontFamily:    @serifFontFamily; // empty to use BS default, @baseFontFamily
