@@ -29,8 +29,7 @@
 					<p>Udtalelser fra kursister</p>
 				</div>
 				<div class="span4 home-three">
-					<h2>Kalender</h2>
-					<p>Kalender widget</p>
+					<?php echo do_shortcode( '[eo_calendar]' ); ?>
 				</div>
     
 			</div> <!-- end #content -->
