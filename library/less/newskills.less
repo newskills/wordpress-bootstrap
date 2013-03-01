@@ -163,13 +163,10 @@
   .accordion-heading {
     background: @grayLighter;
     .accordion-toggle {
-      color: @textColor;
+      color: white; //@textColor;
       text-transform: uppercase;
       font-weight: bold;
       padding: 5px 20px;
-      &:hover {
-        color: white;
-      }
     }
   }
 
@@ -182,7 +179,7 @@
       padding: 0;
       li {
         display: block;
-        background: @grayLighter;
+        background: transparent; //@grayLighter;
         text-transform: uppercase;
         margin: 2px 0;
         a {
@@ -201,7 +198,7 @@
     text-decoration: none;
   }
   &.business-administration {
-    .accordion-toggle:hover, li a:hover {
+    .accordion-toggle, li a:hover {
       background: @businessAdmin;
     }
     li a {
@@ -209,7 +206,7 @@
     }
   }
   &.e-business-digital-marketing {
-    .accordion-toggle:hover, li a:hover {
+    .accordion-toggle, li a:hover {
       background: @ebizz;
     }
     li a {
@@ -217,7 +214,7 @@
     }
   }
   &.cross-media-design-kommunikation {
-    .accordion-toggle:hover, li a:hover {
+    .accordion-toggle, li a:hover {
       background: @crossMedia;
     }
     li a {
@@ -225,7 +222,7 @@
     }
   }
   &.innovation-ivaerksaetteri {
-    .accordion-toggle:hover, li a:hover {
+    .accordion-toggle, li a:hover {
       background: @innovation;
     }
     li a {
@@ -233,7 +230,7 @@
     }
   }
   &.it-webproduktion {
-    .accordion-toggle:hover, li a:hover {
+    .accordion-toggle, li a:hover {
       background: @webproduktion;
     }
     li a {
