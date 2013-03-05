@@ -21,6 +21,23 @@
   background-position: 50% 30%;
   border-bottom: 1px solid #ccc;
   .box-shadow( inset 0 -3px 5px rgba(0, 0, 0, .045) );
+  .row-fluid {
+    position: relative;
+  }
+  .span8 {
+    position: absolute;
+    left: 0;
+    bottom: 0;
+  }
+  h1, p.lead {
+    color: white;
+    font-size: 48px;
+    line-height: 54px;
+  }
+  p.lead {
+    font-family: @serifFontFamily;
+    text-transform: uppercase;
+  }
 }
 
 #content {
@@ -113,7 +130,8 @@
   margin-top: -20px;
   h2 {
     margin-top: 0;
-    line-height: 28px;
+    font-size: 30px;
+    line-height: 34px;
   }
   .home-one {
     .date {
@@ -237,6 +255,35 @@ h2 {
     }
     li a {
       color: @webproduktion;
+    }
+  }
+}
+
+
+// Styles for the calendar
+// -----------------------
+
+.ns-calendar {
+  h2 {
+    //text-transform: uppercase;
+  }
+  h3 {
+    margin-left: 15px;
+    font-family: @sansFontFamily;
+    color: @navbarLinkBackgroundHover;
+  }
+  h4 {
+    margin-left: 30px;
+    font-family: @sansFontFamily;
+    .time {
+      color: @grayLight;
+    }
+    a {
+      color: @grayDark;
+      &:hover {
+        text-decoration: none;
+        color: lighten( @grayDark, 20% );
+      }
     }
   }
 }

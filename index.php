@@ -18,11 +18,11 @@
 			<div id="content" class="clearfix row-fluid home-content">
 			
 				<div class="span4 home-one">
-					<img src="<?php bloginfo('template_directory'); ?>/images/ns_indgang.jpg" alt="NEW Skills indgangsparti">
-					<h2>Åbent hus</h2>
+					<h2>Laaang<br>
+						onsdag</h2>
 					<p class="date">Onsdag 6 . marts kl. 9.30</p>
-					<p>HVER ANDEN ONSDAG ÅBNER VI DØRENE FOR NUVÆRENDE OG TIDL. KURSISTER, DER HAR BRUG FOR VEJLEDNING
-						MED AKTUELLE OPGAVER. KOM SENEST KL. 18.30</p>
+					<p>Hver anden onsdag åbner vi dørene for nuværende og tidligere kursister, der har brug for vejledning
+						med aktuelle opgaver. Kom senest kl. 18.30</p>
 				</div>
 				<div class="span4 home-two">
 					<h2>Testimonials</h2>

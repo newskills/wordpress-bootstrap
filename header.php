@@ -129,6 +129,10 @@
 		<div class="banner">
 			<div class="container-fluid">
 				<div class="row-fluid">
+					<div class="span8">
+						<h1>Gå efter<br>guldet!</h1>
+						<p class="lead">32 IT-kurser, der løfter</p>
+					</div>
 					<?php get_sidebar('header'); ?>
 				</div>
 			</div>
