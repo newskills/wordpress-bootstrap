@@ -475,10 +475,12 @@ li.previous a:hover:before{
 	
 }
 
+/*
 #wp-calendar caption{
 	font-weight: bold;
 	padding: 8px;
 }
+*/
 
 #wp-calendar tr{
 	border-top: 1px solid #ddd;

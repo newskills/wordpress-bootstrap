@@ -97,7 +97,9 @@
 					<div class="navbar-inner">
 						<div class="container-fluid nav-container">
 							<nav role="navigation">
-								<a class="brand" id="logo" title="<?php bloginfo('name'); ?>" href="<?php echo home_url(); ?>"></a>
+								<a class="brand" id="logo" title="<?php bloginfo('name'); ?>" href="<?php echo home_url(); ?>">
+									<img src="<?php bloginfo('template_directory'); ?>/images/newskills_logo.png">
+								</a>
 
 								<a class="btn btn-navbar" data-toggle="collapse" data-target=".nav-collapse">
 					        <span class="icon-bar"></span>

@@ -4908,12 +4908,19 @@ a.badge:hover {
 .navbar .btn-navbar {
   float: left;
 }
+.navbar .navbar-inner {
+  padding-top: 7px;
+  padding-bottom: 7px;
+}
 #logo {
-  background: url(../../images/newskills_logo.png) 5px 5px no-repeat;
-  background-size: 85%;
-  width: 224px;
-  height: 71px;
+  width: 154px;
+  height: 57px;
+  margin-right: -3px;
   float: right;
+}
+#logo img {
+  width: inherit;
+  height: inherit;
 }
 .banner {
   min-height: 250px;
@@ -5029,14 +5036,18 @@ a.badge:hover {
 .home-content {
   margin-top: -20px;
 }
-.home-content h2 {
-  margin-top: 0;
-  font-size: 30px;
-  line-height: 34px;
-}
 .home-content .home-one .date {
   color: #f57336;
   margin: 0;
+  font-weight: bold;
+}
+.home-content h2:first-child {
+  margin-top: 0;
+}
+.home-content h2,
+#wp-calendar caption {
+  font-size: 30px;
+  line-height: 34px;
 }
 h2 {
   margin-top: 30px;
@@ -5149,4 +5160,22 @@ h2 {
 .ns-calendar h4 a:hover {
   text-decoration: none;
   color: #666666;
+}
+#wp-calendar caption {
+  padding: 0 0 8px 15px;
+  font-family: "MemphisLTStd", Georgia, "Times New Roman", Times, serif;
+  font-weight: bold;
+  text-align: left;
+}
+#wp-calendar .event {
+  padding: 4px 0;
+}
+#wp-calendar .event a {
+  display: block;
+  padding: 3px 0;
+  color: #f57336;
+  border: 1px solid #f57336;
+}
+#wp-calendar .event a:hover {
+  text-decoration: none;
 }
