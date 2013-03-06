@@ -35,17 +35,17 @@
 					<h2>Kursisterne siger</h2>
 					<p class="testimonial"><em>”Super godt sted og rigtig god undervisning. Det her giver mig helt klart
 						bedre muligheder for at få et job”</em>
-						<span>-	Anonym</span>
+						<span>- Peter, <a href="/a/medielab">MedieLAB</a></span>
 					</p>
 
 					<p class="testimonial"><em>”Tak for to go'e og inspirerende måneder hos jer - jeg er godt rustet til at
 						søge flere forskellige typer jobs nu - indenfor webkommunikation.”</em>
-						<span>- Ina C, København</span>
+						<span>- Ina, <a href="/a/grundlaeggende-grafisk-produktion">Grundlæggende Grafisk Produktion</a></span>
 					</p>
 
 					<p class="testimonial"><em>”Det er ligesom at komme på arbejde og møde ens søde kollegaer, man får input
 						og her er altid nogen at sparre med”</em>
-						<span>- Kursist</span>
+						<span>-	Anne, <a href="/a/online-marketing-og-sociale-medier">Online Marketing og Sociale Medier</a></span>
 					</p>
 				</div>
 				<div class="span4 home-three">

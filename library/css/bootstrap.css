@@ -5049,6 +5049,7 @@ a.badge:hover {
 }
 .testimonial {
   *zoom: 1;
+  margin-bottom: 20px;
 }
 .testimonial:before,
 .testimonial:after {
@@ -5060,12 +5061,9 @@ a.badge:hover {
   clear: both;
 }
 .testimonial span {
-  display: inline-block;
-  *display: inline;
-  /* IE7 inline-block hack */
-
-  *zoom: 1;
+  display: block;
   float: right;
+  margin-top: 10px;
   font-size: 14px;
   font-style: normal;
 }
