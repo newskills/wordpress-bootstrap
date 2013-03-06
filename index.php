@@ -32,8 +32,16 @@
 						med aktuelle opgaver. Kom senest kl. 18.30</p>
 				</div>
 				<div class="span4 home-two">
-					<p>Udtalelser fra kursister.<br>
-						Vi dropper overskriften i denne kolonne.</p>
+					<h2>Kursisterne siger</h2>
+					<p class="testimonial"><em>”Tak for to go'e og inspirerende måneder hos jer - jeg er godt rustet til at
+						søge flere forskellige typer jobs nu - indenfor webkommunikation.”</em>
+						<span>- Ina C, København</span>
+					</p>
+
+					<p class="testimonial"><em>”Det er ligesom at komme på arbejde og møde ens søde kollegaer, man får input
+						og her er altid nogen at sparre med”</em>
+						<span>- Kursist</span>
+					</p>
 				</div>
 				<div class="span4 home-three">
 					<?php echo do_shortcode( '[eo_calendar]' ); ?>

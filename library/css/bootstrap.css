@@ -5047,6 +5047,28 @@ a.badge:hover {
 .home-content h2:first-child {
   margin-top: 0;
 }
+.testimonial {
+  *zoom: 1;
+}
+.testimonial:before,
+.testimonial:after {
+  display: table;
+  content: "";
+  line-height: 0;
+}
+.testimonial:after {
+  clear: both;
+}
+.testimonial span {
+  display: inline-block;
+  *display: inline;
+  /* IE7 inline-block hack */
+
+  *zoom: 1;
+  float: right;
+  font-size: 14px;
+  font-style: normal;
+}
 .home-content h2,
 #wp-calendar caption {
   font-size: 30px;
