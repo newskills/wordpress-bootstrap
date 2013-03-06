@@ -33,6 +33,11 @@
 				</div>
 				<div class="span4 home-two">
 					<h2>Kursisterne siger</h2>
+					<p class="testimonial"><em>”Super godt sted og rigtig god undervisning. Det her giver mig helt klart
+						bedre muligheder for at få et job”</em>
+						<span>-	Anonym</span>
+					</p>
+
 					<p class="testimonial"><em>”Tak for to go'e og inspirerende måneder hos jer - jeg er godt rustet til at
 						søge flere forskellige typer jobs nu - indenfor webkommunikation.”</em>
 						<span>- Ina C, København</span>
