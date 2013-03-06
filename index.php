@@ -19,14 +19,14 @@
 			
 				<div class="span4 home-one">
 					<div class="clearfix">
-						<h2>Mini CV</h2>
+						<h2><span class="light">Mini</span>CV</h2>
 						<p>Hos NEW Skills er vi løbende i dialog med forskellige virksomheder med henblik på,
 							at skabe jobåbninger for vores kursister. Et vigtigt element i vores indsats for at
 							få vores kursister i job er vores Mini CV	til kursister.</p>
-						<a href="" class="pull-right clearfix">Information og download</a>
+						<a href="/mini-cv" class="pull-right clearfix">Information og download</a>
 					</div>
 
-					<h2>Laaang onsdag</h2>
+					<h2><span class="light">Laaang</span>onsdag</h2>
 					<p class="date">onsdag 6. marts kl. 9</p>
 					<p>Hver anden onsdag åbner vi dørene for nuværende og tidligere kursister, der har brug for vejledning
 						med aktuelle opgaver. Kom senest kl. 18.30</p>

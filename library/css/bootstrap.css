@@ -5055,6 +5055,9 @@ a.badge:hover {
 h2 {
   margin-top: 30px;
 }
+h2 .light {
+  font-weight: normal;
+}
 *.widgettitle {
   margin-top: 0;
 }
