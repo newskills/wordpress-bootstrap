@@ -131,7 +131,7 @@
 		<div class="banner">
 			<div class="container-fluid">
 				<div class="row-fluid">
-					<div class="span8">
+					<div class="span8 hidden-phone">
 						<h1>Gå efter<br>guldet!</h1>
 						<p class="lead">32 IT-kurser, der løfter</p>
 					</div>

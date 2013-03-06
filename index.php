@@ -40,7 +40,7 @@
 
 					<p class="testimonial"><em>”Tak for to go'e og inspirerende måneder hos jer - jeg er godt rustet til at
 						søge flere forskellige typer jobs nu - indenfor webkommunikation.”</em>
-						<span>- Ina, <a href="/a/grundlaeggende-grafisk-produktion">Grundlæggende Grafisk Produktion</a></span>
+						<span>- Ina, <a href="/a/webkommunikation-cms">Webkommunikation og CMS</a></span>
 					</p>
 
 					<p class="testimonial"><em>”Det er ligesom at komme på arbejde og møde ens søde kollegaer, man får input
