@@ -5034,6 +5034,11 @@ a.badge:hover {
 .fluid-sidebar .EO_Event_List_Widget .eo-events-widget li .eo-list-desc {
   display: none;
 }
+.fluid-sidebar #wp-calendar caption {
+  font-size: 18px;
+  line-height: 20px;
+  padding: 0 0 8px 0;
+}
 .home-content {
   margin-top: -20px;
 }
@@ -5202,9 +5207,4 @@ h2 .light {
 }
 #wp-calendar .event a:hover {
   text-decoration: none;
-}
-#eo_calendar_widget-2_content #wp-calendar caption {
-  font-size: 18px;
-  line-height: 20px;
-  padding: 0 0 8px 0;
 }
