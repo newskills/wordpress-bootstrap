@@ -32,7 +32,7 @@
 						med aktuelle opgaver. Kom senest kl. 18.30</p>
 				</div>
 				<div class="span4 home-two">
-					<h2>Kursisterne siger</h2>
+					<h2>Testimonials</h2>
 					<p class="testimonial"><em>”Super godt sted og rigtig god undervisning. Det her giver mig helt klart
 						bedre muligheder for at få et job”</em>
 						<span>- Peter, <a href="/a/medielab">MedieLAB</a></span>
