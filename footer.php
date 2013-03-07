@@ -9,7 +9,8 @@
             <span style="padding: 0 10px">+45 70 21 04 00</span> &bull;
             <span style="padding: 0 10px">
             	<a href="mailto:info@newskills.dk">info@newskills.dk</a>
-            </span>
+            </span> &bull;
+            <span style="padding: 0 10px">CVR 20285680</span>
           </div>
           
           <div id="widget-footer" class="clearfix">
