@@ -5164,10 +5164,10 @@ h2 .light {
 }
 .accordion-group.afklaring .accordion-toggle,
 .accordion-group.afklaring li a:hover {
-  background: #999999;
+  background: #777777;
 }
 .accordion-group.afklaring li a {
-  color: #999999;
+  color: #777777;
 }
 .accordion-group.business-administration .accordion-toggle,
 .accordion-group.business-administration li a:hover {
