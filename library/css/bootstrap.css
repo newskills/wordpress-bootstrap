@@ -5021,7 +5021,7 @@ a.badge:hover {
   border-color: rgba(0, 0, 0, 0.15);
 }
 .fluid-sidebar .widget p:last-child,
-.fluid-sidebar .widget table {
+.fluid-sidebar .widget table:last-child {
   margin-bottom: 0;
 }
 .fluid-sidebar .EO_Event_List_Widget .eo-events-widget {
