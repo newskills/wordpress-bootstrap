@@ -243,6 +243,7 @@ h2 {
 // Styles for the accordion
 // ------------------------
 
+@afklaring:         #999;
 @businessAdmin:     #2a4378;
 @ebizz:             #825e14;
 @crossMedia:        #1f958e;
@@ -288,6 +289,15 @@ h2 {
   
   &:hover .accordion-toggle {
     text-decoration: none;
+  }
+  // TODO: I sense a pattern below. Mixin anyone?
+  &.afklaring {
+    .accordion-toggle, li a:hover {
+      background: @afklaring;
+    }
+    li a {
+      color: @afklaring;
+    }
   }
   &.business-administration {
     .accordion-toggle, li a:hover {
