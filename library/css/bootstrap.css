@@ -5097,6 +5097,31 @@ h2 .light {
 .social_stickers_widget {
   margin-bottom: 2em !important;
 }
+.event-excerpt p:first-child {
+  margin-bottom: 13.5px;
+  font-size: 18px;
+  font-weight: 400;
+  line-height: 24px;
+}
+.taxonomy-event-category-item h2 {
+  margin-top: 0;
+}
+.taxonomy-event-category-item h2 span {
+  display: block;
+  color: #f57336;
+  font-family: "ScalaSansPro", "Helvetica Neue", Helvetica, Arial, sans-serif;
+  font-weight: normal;
+  font-size: 16px;
+  line-height: 20px;
+  margin-bottom: 2px;
+}
+.taxonomy-event-category-item h2 a {
+  color: #333333;
+}
+.taxonomy-event-category-item h2 a:hover {
+  text-decoration: none;
+  color: #666666;
+}
 .accordion-group {
   border: none;
   margin-bottom: 0;
@@ -5187,6 +5212,13 @@ h2 .light {
   color: #333333;
 }
 .ns-calendar h4 a:hover {
+  text-decoration: none;
+  color: #666666;
+}
+.event-listing-link {
+  color: #333333;
+}
+.event-listing-link:hover {
   text-decoration: none;
   color: #666666;
 }

@@ -37,8 +37,8 @@ get_header(); ?>
               echo apply_filters( 'category_archive_meta', '<div class="category-archive-meta">' . $category_description . '</div>' );
           ?>
         </header>
-          <?php echo do_shortcode('[otw_is sidebar=otw-sidebar-1]'); ?>
           <?php if ( single_cat_title( '', false ) == 'Kurser &amp; Moduler' ) : ?>
+            
             <div class="accordion" id="courses">
               <?php
                 $post_type = $wp->query_vars[ 'post_type' ];
@@ -98,28 +98,18 @@ get_header(); ?>
             <?php /* Start the Loop */ ?>
             <?php while ( have_posts() ) : the_post(); ?>
                     
-              <article id="post-<?php the_ID(); ?>" <?php post_class(); ?>>
+              <article id="post-<?php the_ID(); ?>" <?php post_class('taxonomy-event-category-item'); ?>>
 
                 <header class="entry-header">
-                  <h1 class="entry-title"><a href="<?php the_permalink(); ?>"><?php the_title(); ?></a></h1>
-
-                  <div class="entry-meta">
-                    <!-- Output the date of the occurrence-->
-                    <?php if(eo_is_all_day()):?>
-                      <!-- Event is an all day event -->
-                      <?php eo_the_start('d F Y'); ?> 
-                    <?php else: ?>
-                      <!-- Event is not an all day event - display time -->
-                      <?php eo_the_start('d F Y g:ia'); ?> 
-                    <?php endif; ?>
-
-                    <!-- If the event has a venue saved, display this-->
-                    <?php if(eo_get_venue_name()):?>
-                      <?php _e('at','eventorganiser');?> <a href="<?php eo_venue_link();?>"><?php eo_venue_name();?></a>
-                    <?php endif;?>
-                  </div><!-- .entry-meta -->
-
+                  <h2>
+                    <span class="date"><?php eo_the_start('l j. F \k\l. G.i') ?></span>
+                    <a href="<?php the_permalink(); ?>"><?php the_title(); ?></a>
+                  </h2>
                 </header><!-- .entry-header -->
+
+                <div class="event-excerpt">
+                  <?php the_excerpt() ?>
+                </div>
 
               </article><!-- #post-<?php the_ID(); ?> -->
 

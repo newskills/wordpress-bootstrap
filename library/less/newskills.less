@@ -214,6 +214,32 @@ h2 {
 }
 
 
+// Category pages
+// --------------
+.event-excerpt {
+  p:first-child {
+    .lead;
+  }
+}
+.taxonomy-event-category-item {
+  h2 {
+    margin-top: 0;
+    span {
+      display: block;
+      color: @brandOrange;
+      font-family: @sansFontFamily;
+      font-weight: normal;
+      font-size: 16px;
+      line-height: 20px;
+      margin-bottom: 2px;
+    }
+    a {
+      .event-listing-link;
+    }
+  }
+}
+
+
 // Styles for the accordion
 // ------------------------
 
@@ -316,7 +342,7 @@ h2 {
   h3 {
     margin-left: 15px;
     font-family: @sansFontFamily;
-    color: @navbarLinkBackgroundHover;
+    color: @brandOrange;
   }
   h4 {
     margin-left: 30px;
@@ -325,13 +351,16 @@ h2 {
       color: @grayLight;
     }
     a {
-      color: @grayDark;
-      &:hover {
-        text-decoration: none;
-        color: lighten( @grayDark, 20% );
-      }
+      .event-listing-link;
     }
   }
+}
+.event-listing-link {
+  color: @grayDark;
+  &:hover {
+    text-decoration: none;
+    color: lighten( @grayDark, 20% );
+  }  
 }
 
 #wp-calendar {
