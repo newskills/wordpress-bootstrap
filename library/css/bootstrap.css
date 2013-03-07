@@ -5097,6 +5097,7 @@ h2 .light {
 .social_stickers_widget {
   margin-bottom: 2em !important;
 }
+.category-archive-meta p:first-child,
 .event-excerpt p:first-child {
   margin-bottom: 13.5px;
   font-size: 18px;
