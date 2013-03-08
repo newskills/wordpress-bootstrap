@@ -5237,8 +5237,11 @@ h2 .light {
   font-weight: bold;
   text-align: left;
 }
+#wp-calendar td {
+  width: 14.25%;
+}
 #wp-calendar .event {
-  padding: 4px 0;
+  padding: 4px 2px;
 }
 #wp-calendar .event a {
   display: block;
