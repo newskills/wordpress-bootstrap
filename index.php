@@ -27,7 +27,7 @@
 					</div>
 
 					<h2><span class="light">Laaang</span>onsdag</h2>
-					<p class="date">onsdag 6. marts kl. 9</p>
+					<p class="date">onsdag 20. marts kl. 9</p>
 					<p>Hver anden onsdag åbner vi dørene for nuværende og tidligere kursister, der har brug for vejledning
 						med aktuelle opgaver. Kom senest kl. 18.30</p>
 				</div>
