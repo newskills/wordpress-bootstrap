@@ -20,7 +20,7 @@
 				<div class="span4 home-one">
 					<div class="clearfix">
 						<h2><span class="light">IT</span>afklaring</h2>
-						<p>Har du brug for kurser? Få i løbet af en uge afklaret din faglige kompetencer og lavet et
+						<p>Har du brug for kurser? I løbet af en uge kan du få afklaret dine faglige kompetencer og lavet et
 							forslag til en plan for opkvalificerende IT-kurser. Løbende optag med start hver torsdag.</p>
 							<a href="/a/it-afklaring/" class="pull-right clearfix">Læs mere om IT-afklaring</a>
 					</div>
