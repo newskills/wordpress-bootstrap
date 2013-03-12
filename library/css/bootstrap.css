@@ -4975,20 +4975,24 @@ a.badge:hover {
 .sidebar-header .widget {
   margin-bottom: 0 !important;
 }
-.sidebar-header .EO_Event_List_Widget h2 {
+.EO_Event_List_Widget h2 {
   margin: 15px 0 -10px 5px;
   font-size: 20px;
   text-transform: uppercase;
   line-height: 38px;
 }
-.sidebar-header .EO_Event_List_Widget li a {
-  display: block;
+.EO_Event_List_Widget li a {
+  display: inline-block;
+  *display: inline;
+  /* IE7 inline-block hack */
+
+  *zoom: 1;
   text-decoration: none;
   color: white;
   background: transparent;
   text-transform: uppercase;
 }
-.sidebar-header .EO_Event_List_Widget li h3 {
+.EO_Event_List_Widget li h3 {
   font-size: 14px;
   font-family: "ScalaSansPro", "Helvetica Neue", Helvetica, Arial, sans-serif;
   line-height: 22px;
@@ -4996,7 +5000,7 @@ a.badge:hover {
   text-transform: lowercase;
   color: #f57336;
 }
-.sidebar-header .EO_Event_List_Widget:last-child .eo-events-widget {
+.EO_Event_List_Widget:last-child .eo-events-widget {
   margin-bottom: 15px;
 }
 .fluid-sidebar .widget {
@@ -5029,11 +5033,8 @@ a.badge:hover {
   margin: 0;
   padding: 0;
 }
-.fluid-sidebar .EO_Event_List_Widget .eo-events-widget li a {
-  display: none;
-}
-.fluid-sidebar .EO_Event_List_Widget .eo-events-widget li .eo-list-desc {
-  display: none;
+.fluid-sidebar .EO_Event_List_Widget a {
+  color: #333333;
 }
 .fluid-sidebar #wp-calendar caption {
   font-size: 18px;
@@ -5084,6 +5085,10 @@ h2 .light {
 }
 *.widgettitle {
   margin-top: 0;
+}
+.post_content h3 {
+  margin-top: 12px;
+  margin-bottom: 4px;
 }
 #inner-footer {
   text-align: center;
