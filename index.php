@@ -19,13 +19,13 @@
 			
 				<div class="span4 home-one">
 					<div class="clearfix">
-						<h2><span class="light">IT</span>afklaring</h2>
+						<h2><span class="light">IT-</span>Afklaring</h2>
 						<p>Har du brug for kurser? I løbet af en uge kan du få afklaret dine faglige kompetencer og lavet et
 							forslag til en plan for opkvalificerende IT-kurser. Løbende optag med start hver torsdag.</p>
 							<a href="/a/it-afklaring/" class="pull-right clearfix">Læs mere om IT-afklaring</a>
 					</div>
 
-					<h2><span class="light">Laaang</span>onsdag</h2>
+					<h2><span class="light">Laaang</span> onsdag</h2>
 					<p class="date">onsdag 20. marts kl. 9</p>
 					<p>Hver anden onsdag åbner vi dørene for nuværende og tidligere kursister, der har brug for vejledning
 						med aktuelle opgaver. Kom senest kl. 18.30</p>
