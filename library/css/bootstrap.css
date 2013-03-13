@@ -5257,3 +5257,191 @@ h2 .light {
 #wp-calendar .event a:hover {
   text-decoration: none;
 }
+.web-ball {
+  display: block;
+  width: 200px;
+  height: 200px;
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  box-sizing: border-box;
+  -webkit-border-radius: 100px;
+  -moz-border-radius: 100px;
+  border-radius: 100px;
+  padding-top: 33.333333333333336px;
+  padding-left: 33.333333333333336px;
+  background-color: #f67c13;
+  background-repeat: repeat-x;
+  background-image: -moz-linear-gradient(-30deg, #f9a55d, #f67c13);
+  background-image: -webkit-linear-gradient(-30deg, #f9a55d, #f67c13);
+  background-image: -o-linear-gradient(-30deg, #f9a55d, #f67c13);
+  background-image: linear-gradient(-30deg, #f9a55d, #f67c13);
+}
+.web-ball span {
+  display: block;
+  color: #ffffff;
+}
+.web-ball span:nth-child(1) {
+  font-family: "MemphisLTStd", Georgia, "Times New Roman", Times, serif;
+  font-weight: bold;
+  font-size: 24px;
+  line-height: 24px;
+}
+.web-ball span:nth-child(2) {
+  font-family: "MemphisLTStd", Georgia, "Times New Roman", Times, serif;
+  margin-top: 6px;
+  font-size: 18px;
+  line-height: 22px;
+}
+.web-ball.floated {
+  float: left;
+}
+.web-ball.cleared {
+  clear: left;
+}
+.web-ball.indented {
+  margin-left: 200px;
+}
+.web-ball.double {
+  width: 400px;
+}
+.ebizz-ball {
+  display: block;
+  width: 200px;
+  height: 200px;
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  box-sizing: border-box;
+  -webkit-border-radius: 100px;
+  -moz-border-radius: 100px;
+  border-radius: 100px;
+  padding-top: 33.333333333333336px;
+  padding-left: 33.333333333333336px;
+  background-color: #825e14;
+  background-repeat: repeat-x;
+  background-image: -moz-linear-gradient(-30deg, #c48e1e, #825e14);
+  background-image: -webkit-linear-gradient(-30deg, #c48e1e, #825e14);
+  background-image: -o-linear-gradient(-30deg, #c48e1e, #825e14);
+  background-image: linear-gradient(-30deg, #c48e1e, #825e14);
+}
+.ebizz-ball span {
+  display: block;
+  color: #ffffff;
+}
+.ebizz-ball span:nth-child(1) {
+  font-family: "MemphisLTStd", Georgia, "Times New Roman", Times, serif;
+  font-weight: bold;
+  font-size: 24px;
+  line-height: 24px;
+}
+.ebizz-ball span:nth-child(2) {
+  font-family: "MemphisLTStd", Georgia, "Times New Roman", Times, serif;
+  margin-top: 6px;
+  font-size: 18px;
+  line-height: 22px;
+}
+.ebizz-ball.floated {
+  float: left;
+}
+.ebizz-ball.cleared {
+  clear: left;
+}
+.ebizz-ball.indented {
+  margin-left: 200px;
+}
+.ebizz-ball.double {
+  width: 400px;
+}
+.cross-media-ball {
+  display: block;
+  width: 200px;
+  height: 200px;
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  box-sizing: border-box;
+  -webkit-border-radius: 100px;
+  -moz-border-radius: 100px;
+  border-radius: 100px;
+  padding-top: 33.333333333333336px;
+  padding-left: 33.333333333333336px;
+  background-color: #1f958e;
+  background-repeat: repeat-x;
+  background-image: -moz-linear-gradient(-30deg, #2dd3c9, #1f958e);
+  background-image: -webkit-linear-gradient(-30deg, #2dd3c9, #1f958e);
+  background-image: -o-linear-gradient(-30deg, #2dd3c9, #1f958e);
+  background-image: linear-gradient(-30deg, #2dd3c9, #1f958e);
+}
+.cross-media-ball span {
+  display: block;
+  color: #ffffff;
+}
+.cross-media-ball span:nth-child(1) {
+  font-family: "MemphisLTStd", Georgia, "Times New Roman", Times, serif;
+  font-weight: bold;
+  font-size: 24px;
+  line-height: 24px;
+}
+.cross-media-ball span:nth-child(2) {
+  font-family: "MemphisLTStd", Georgia, "Times New Roman", Times, serif;
+  margin-top: 6px;
+  font-size: 18px;
+  line-height: 22px;
+}
+.cross-media-ball.floated {
+  float: left;
+}
+.cross-media-ball.cleared {
+  clear: left;
+}
+.cross-media-ball.indented {
+  margin-left: 200px;
+}
+.cross-media-ball.double {
+  width: 400px;
+}
+.business-administration-ball {
+  display: block;
+  width: 200px;
+  height: 200px;
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  box-sizing: border-box;
+  -webkit-border-radius: 100px;
+  -moz-border-radius: 100px;
+  border-radius: 100px;
+  padding-top: 33.333333333333336px;
+  padding-left: 33.333333333333336px;
+  background-color: #2a4378;
+  background-repeat: repeat-x;
+  background-image: -moz-linear-gradient(-30deg, #3e63b1, #2a4378);
+  background-image: -webkit-linear-gradient(-30deg, #3e63b1, #2a4378);
+  background-image: -o-linear-gradient(-30deg, #3e63b1, #2a4378);
+  background-image: linear-gradient(-30deg, #3e63b1, #2a4378);
+}
+.business-administration-ball span {
+  display: block;
+  color: #ffffff;
+}
+.business-administration-ball span:nth-child(1) {
+  font-family: "MemphisLTStd", Georgia, "Times New Roman", Times, serif;
+  font-weight: bold;
+  font-size: 24px;
+  line-height: 24px;
+}
+.business-administration-ball span:nth-child(2) {
+  font-family: "MemphisLTStd", Georgia, "Times New Roman", Times, serif;
+  margin-top: 6px;
+  font-size: 18px;
+  line-height: 22px;
+}
+.business-administration-ball.floated {
+  float: left;
+}
+.business-administration-ball.cleared {
+  clear: left;
+}
+.business-administration-ball.indented {
+  margin-left: 200px;
+}
+.business-administration-ball.double {
+  width: 400px;
+}

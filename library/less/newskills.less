@@ -397,3 +397,63 @@ h2 {
     }
   }
 }
+
+
+
+// Balls!
+// ------
+
+.ball (@radius, @startColor, @endColor) {
+  display: block;
+  width: (2 * @radius);
+  height: (2 * @radius);
+  .box-sizing( border-box );
+  .border-radius (@radius);
+  padding-top: (@radius / 3);
+  padding-left: (@radius / 3);
+
+  // TODO: Can we have a basic horizontal gradient first to satisfy IE?
+  #gradient > .directional(@startColor, @endColor, -30deg );
+
+  span {
+    display: block;
+    color: @white;
+    &:nth-child(1) {
+      font-family: @serifFontFamily;
+      font-weight: bold;
+      font-size: 24px;
+      line-height: 24px;
+    }
+    &:nth-child(2) {
+      font-family: @serifFontFamily;
+      margin-top: 6px;
+      font-size: 18px;
+      line-height: 22px;
+    }
+  }
+
+  &.floated {
+    float: left;
+  }
+  &.cleared {
+    clear: left;
+  }
+  &.indented {
+    margin-left: (2 * @radius);
+  }
+  &.double {
+    width: (4 * @radius);
+  }
+}
+.web-ball {
+  .ball ( 100px, lighten( @webproduktion, 15% ), @webproduktion );
+}
+.ebizz-ball {
+  .ball ( 100px, lighten( @ebizz, 15% ), @ebizz );
+}
+.cross-media-ball {
+  .ball ( 100px, lighten( @crossMedia, 15% ), @crossMedia );
+}
+.business-administration-ball {
+  .ball ( 100px, lighten( @businessAdmin, 15% ), @businessAdmin );
+}
