@@ -5210,6 +5210,13 @@ h2 .light {
 .accordion-group.it-webproduktion li a {
   color: #f67c13;
 }
+.accordion-group.projektledelse-kommunikation .accordion-toggle,
+.accordion-group.projektledelse-kommunikation li a:hover {
+  background: #90478e;
+}
+.accordion-group.projektledelse-kommunikation li a {
+  color: #90478e;
+}
 .ns-calendar h3 {
   margin-left: 15px;
   font-family: "ScalaSansPro", "Helvetica Neue", Helvetica, Arial, sans-serif;
