@@ -77,7 +77,7 @@ get_header(); ?>
 
           <h4>
             <!-- style="color: <?=eo_get_event_color() ?> -->
-            <span class="time"><?php eo_the_start('h:i') ?></span> <a href="<?php the_permalink(); ?>"><?php the_title(); ?></a>
+            <span class="time"><?php eo_the_start('G:i') ?></span> <a href="<?php the_permalink(); ?>"><?php the_title(); ?></a>
           </h4>
      
           <?php endwhile; ?><!----The Loop ends-->
