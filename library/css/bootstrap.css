@@ -4923,7 +4923,7 @@ a.badge:hover {
 .banner {
   min-height: 250px;
   padding: 16px 0 0 0;
-  background-image: url(../../images/forsidetopmand.jpg);
+  background-image: url(../../images/forsidetop.jpg);
   background-size: cover;
   background-position: 50% 30%;
   border-bottom: 1px solid #ccc;
@@ -4988,7 +4988,7 @@ a.badge:hover {
 
   *zoom: 1;
   text-decoration: none;
-  color: white;
+  color: #f57336;
   background: transparent;
   text-transform: uppercase;
 }
@@ -4998,7 +4998,7 @@ a.badge:hover {
   line-height: 22px;
   margin-bottom: 0px;
   text-transform: lowercase;
-  color: #f57336;
+  color: white;
 }
 .EO_Event_List_Widget:last-child .eo-events-widget {
   margin-bottom: 15px;
@@ -5123,11 +5123,11 @@ h2 .light {
   margin-bottom: 2px;
 }
 .taxonomy-event-category-item h2 a {
-  color: #333333;
+  color: #f57336;
 }
 .taxonomy-event-category-item h2 a:hover {
   text-decoration: none;
-  color: #666666;
+  color: #fab797;
 }
 .accordion-group {
   border: none;
@@ -5220,7 +5220,7 @@ h2 .light {
 .ns-calendar h3 {
   margin-left: 15px;
   font-family: "ScalaSansPro", "Helvetica Neue", Helvetica, Arial, sans-serif;
-  color: #f57336;
+  color: black;
 }
 .ns-calendar h4 {
   margin-left: 30px;
@@ -5230,18 +5230,18 @@ h2 .light {
   color: #999999;
 }
 .ns-calendar h4 a {
-  color: #333333;
+  color: #f57336;
 }
 .ns-calendar h4 a:hover {
   text-decoration: none;
-  color: #666666;
+  color: #fab797;
 }
 .event-listing-link {
-  color: #333333;
+  color: #f57336;
 }
 .event-listing-link:hover {
   text-decoration: none;
-  color: #666666;
+  color: #fab797;
 }
 #wp-calendar caption {
   padding: 0 0 8px 15px;

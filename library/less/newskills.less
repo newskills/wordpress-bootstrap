@@ -23,7 +23,7 @@
 .banner {
   min-height: 250px;
   padding: 16px 0 0 0;
-  background-image: url(../../images/forsidetopmand.jpg);
+  background-image: url(../../images/forsidetop.jpg);
   background-size: cover;
   background-position: 50% 30%;
   border-bottom: 1px solid #ccc;
@@ -89,7 +89,7 @@
       display: inline-block;
       .ie7-inline-block();
       text-decoration: none;
-      color: white;
+      color: @navbarLinkBackgroundHover; //white;
       background: transparent;
       text-transform: uppercase;
     }
@@ -99,7 +99,7 @@
       line-height: 22px;
       margin-bottom: 0px;
       text-transform: lowercase;
-      color: @navbarLinkBackgroundHover;
+      color: white; //@navbarLinkBackgroundHover;
     }
   }
   &:last-child {
@@ -362,7 +362,7 @@ h2 {
   h3 {
     margin-left: 15px;
     font-family: @sansFontFamily;
-    color: @brandOrange;
+    color: black; //@brandOrange;
   }
   h4 {
     margin-left: 30px;
@@ -376,10 +376,10 @@ h2 {
   }
 }
 .event-listing-link {
-  color: @grayDark;
+  color: @brandOrange; //@grayDark;
   &:hover {
     text-decoration: none;
-    color: lighten( @grayDark, 20% );
+    color: lighten( @brandOrange, 20% ); //lighten( @grayDark, 20% );
   }  
 }
 
