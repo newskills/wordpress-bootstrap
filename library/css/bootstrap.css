@@ -4903,6 +4903,9 @@ a.badge:hover {
 .affix {
   position: fixed;
 }
+a {
+  color: #f57336;
+}
 .navbar .btn-navbar {
   float: left;
 }
