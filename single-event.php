@@ -24,6 +24,8 @@ get_header(); ?>
 
       <?php while ( have_posts() ) : the_post(); ?>
 
+      <a href="/kalenderkategorier/kurser/"><--Tilbage til kurser</a>
+
         <article id="post-<?php the_ID(); ?>" <?php post_class(); ?>>
 
           <header class="entry-header">

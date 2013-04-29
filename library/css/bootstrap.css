@@ -4906,6 +4906,9 @@ a.badge:hover {
 a {
   color: #f57336;
 }
+body p {
+  font-size: 16px;
+}
 .navbar .btn-navbar {
   float: left;
 }
