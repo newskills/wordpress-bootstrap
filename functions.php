@@ -83,6 +83,7 @@ function bones_register_sidebars() {
     	'after_title' => '</h4>',
     ));
 
+
     register_sidebar(array(
     	'id' => 'sidebar2',
     	'name' => 'Homepage Sidebar',
