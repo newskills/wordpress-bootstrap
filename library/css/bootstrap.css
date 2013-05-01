@@ -4998,6 +4998,9 @@ body p {
   background: transparent;
   text-transform: uppercase;
 }
+.EO_Event_List_Widget li a:hover {
+  color: #f9a67f;
+}
 .EO_Event_List_Widget li h3 {
   font-size: 14px;
   font-family: "ScalaSansPro", "Helvetica Neue", Helvetica, Arial, sans-serif;
